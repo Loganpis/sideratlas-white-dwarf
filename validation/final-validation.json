@@ -1,0 +1,183 @@
+{
+  "movie": {
+    "file": "sideratlas-no003-the-white-dwarf-32s.mp4",
+    "bytes": 9468791,
+    "sha256": "f4fa9ec93e39ad2a35d56771dbcc9bea42aca40f2383ad7296e8bb4cc53d6aad",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 960,
+    "seconds": 32,
+    "codec": "H.264 High",
+    "pixel_format": "yuv420p",
+    "color": "Rec.709 limited",
+    "progressive": true,
+    "audio": false
+  },
+  "exact_frame_timing_including_chunk_joins": true,
+  "color_managed_source_frame_comparisons": [
+    {
+      "frame": 0,
+      "srgb_PSNR_dB": 49.88964539839845,
+      "absolute_99th_percentile_RGB_error": 2.70428015564201
+    },
+    {
+      "frame": 240,
+      "srgb_PSNR_dB": 49.909417419233584,
+      "absolute_99th_percentile_RGB_error": 2.684824902723733
+    },
+    {
+      "frame": 480,
+      "srgb_PSNR_dB": 49.69203357567259,
+      "absolute_99th_percentile_RGB_error": 2.7120622568093324
+    },
+    {
+      "frame": 720,
+      "srgb_PSNR_dB": 49.959891383580654,
+      "absolute_99th_percentile_RGB_error": 2.688715953307394
+    }
+  ],
+  "fixed_observer_checks": [
+    {
+      "frame": 0,
+      "independent_fixed_observer_flux_error": 5.530025326550003e-10
+    },
+    {
+      "frame": 119,
+      "independent_fixed_observer_flux_error": 3.768092504685683e-10
+    },
+    {
+      "frame": 120,
+      "independent_fixed_observer_flux_error": 4.408247100684548e-10
+    },
+    {
+      "frame": 239,
+      "independent_fixed_observer_flux_error": 1.0724372501158541e-09
+    },
+    {
+      "frame": 240,
+      "independent_fixed_observer_flux_error": 2.4176283197618886e-10
+    },
+    {
+      "frame": 479,
+      "independent_fixed_observer_flux_error": 8.792651051692246e-10
+    },
+    {
+      "frame": 480,
+      "independent_fixed_observer_flux_error": 2.025735135191553e-10
+    },
+    {
+      "frame": 719,
+      "independent_fixed_observer_flux_error": 4.671990128102266e-09
+    },
+    {
+      "frame": 720,
+      "independent_fixed_observer_flux_error": 2.349994421280144e-09
+    },
+    {
+      "frame": 959,
+      "independent_fixed_observer_flux_error": 4.4359560469331427e-10
+    }
+  ],
+  "only_approved_three_labels": true,
+  "fixed_observer_visible_flux_peak_to_peak_percent": 1.6369890299785417,
+  "temperature_range_K": [
+    11881.121665955525,
+    12117.595600211662
+  ],
+  "physical_amplitudes_unchanged": true,
+  "no_temperature_or_linear_RGB_clipping": true,
+  "numerical_convergence": {
+    "temporal_two_vs_four_gauss_samples": [
+      {
+        "frame": 0,
+        "linear_RGB_rms": 5.779998257793295e-09,
+        "linear_RGB_max": 2.980232238769531e-07
+      },
+      {
+        "frame": 142,
+        "linear_RGB_rms": 7.391867740125235e-08,
+        "linear_RGB_max": 1.430511474609375e-06
+      },
+      {
+        "frame": 381,
+        "linear_RGB_rms": 8.880236634922767e-08,
+        "linear_RGB_max": 1.4901161193847656e-06
+      },
+      {
+        "frame": 715,
+        "linear_RGB_rms": 2.4465387493677326e-09,
+        "linear_RGB_max": 1.1920928955078125e-07
+      },
+      {
+        "frame": 959,
+        "linear_RGB_rms": 3.679133442346938e-09,
+        "linear_RGB_max": 1.7881393432617188e-07
+      }
+    ],
+    "spatial_2x_interior_8x_limb_vs_4x_interior_16x_limb": [
+      {
+        "frame": 142,
+        "width": 540,
+        "height": 960,
+        "linear_RGB_rms": 5.61579036002513e-05,
+        "linear_RGB_99th_percentile": 5.50451874732974e-05,
+        "linear_RGB_max": 0.00699964165687561
+      },
+      {
+        "frame": 480,
+        "width": 540,
+        "height": 960,
+        "linear_RGB_rms": 3.944859781768173e-05,
+        "linear_RGB_99th_percentile": 3.123283386230469e-05,
+        "linear_RGB_max": 0.006241202354431152
+      },
+      {
+        "frame": 715,
+        "width": 540,
+        "height": 960,
+        "linear_RGB_rms": 3.0555122066289186e-05,
+        "linear_RGB_99th_percentile": 2.246357500553138e-05,
+        "linear_RGB_max": 0.005878269672393799
+      }
+    ],
+    "fixed_observer_96x192_vs_144x288_and_2_vs_4_temporal_nodes": [
+      {
+        "observer_time_s": 0.0,
+        "relative_CIE_Y_flux": 1.0037825950838013,
+        "normalized_flux_error": 1.9395418604517545e-10
+      },
+      {
+        "observer_time_s": 255.3,
+        "relative_CIE_Y_flux": 1.0016989802441842,
+        "normalized_flux_error": 7.600764462267762e-10
+      },
+      {
+        "observer_time_s": 362.9,
+        "relative_CIE_Y_flux": 0.9963673558239231,
+        "normalized_flux_error": 2.3997570597344975e-10
+      },
+      {
+        "observer_time_s": 860.8,
+        "relative_CIE_Y_flux": 1.0043515031232564,
+        "normalized_flux_error": 5.615143905401965e-10
+      },
+      {
+        "observer_time_s": 1291.2,
+        "relative_CIE_Y_flux": 1.0038456705192735,
+        "normalized_flux_error": 3.859499164704516e-09
+      },
+      {
+        "observer_time_s": 1721.6,
+        "relative_CIE_Y_flux": 1.0049461709605287,
+        "normalized_flux_error": 9.832425984512838e-10
+      }
+    ],
+    "ray_interpolation": {
+      "max_cospsi_interpolation_error": 1.33437708040203e-14,
+      "max_differential_delay_interpolation_error_s": 4.4125742384983175e-14
+    },
+    "elapsed_s": 4.347334292004234
+  },
+  "caption_characters": 2107
+}

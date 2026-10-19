@@ -1,0 +1,43 @@
+{
+  "star": {
+    "mass_solar": 0.6,
+    "temperature_k": 12000.0,
+    "chand_mass_solar": 1.44,
+    "radius_km": 8658.067050113483,
+    "earth_radii": 1.3589808585957437,
+    "logg_cgs": 8.026234127684083,
+    "compactness": 0.00020466503885724715,
+    "redshift_z": 0.00010234823002508442,
+    "redshift_equivalent_km_s": 30.683227451169458,
+    "temperature_at_infinity_k": 11998.771946928759,
+    "luminosity_solar": 0.0028934537528885395,
+    "luminosity_at_infinity_solar": 0.002892861564063773,
+    "surface_light_crossing_s": 0.02888020301736037,
+    "apparent_radius_ratio": 1.000102348230025
+  },
+  "modes": [
+    {
+      "degree": 1,
+      "order": 0,
+      "period_infinity_s": 215.2,
+      "local_bolometric_semiamplitude": 0.03,
+      "phase_rad": 0.4
+    },
+    {
+      "degree": 2,
+      "order": 1,
+      "period_infinity_s": 270.46,
+      "local_bolometric_semiamplitude": 0.012,
+      "phase_rad": 1.2
+    },
+    {
+      "degree": 1,
+      "order": 1,
+      "period_infinity_s": 304.05,
+      "local_bolometric_semiamplitude": 0.008,
+      "phase_rad": 2.1
+    }
+  ],
+  "original_source_sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5",
+  "original_cache_sha256": "b37ca577187d6fc4fb8ed44dbf651dfd8f48eae0e374444fd0ffabdf10f8679f"
+}

@@ -1,0 +1,16 @@
+{
+  "production": {
+    "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:54:21) [Clang 16.0.6 ]",
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "Pillow": "10.3.0",
+      "matplotlib": "3.8.4",
+      "pytest": "7.4.4",
+      "contourpy": "1.2.0",
+      "fonttools": "4.51.0"
+    },
+    "freetype": "2.12.1"
+  },
+  "isolated_reproduction_test": "16 passed in a clean source copy with freshly installed dependencies"
+}

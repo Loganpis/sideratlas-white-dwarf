@@ -1,0 +1,108 @@
+{
+  "source": "SVO Theoretical Spectra, Koester WD models",
+  "attribution": "Koester (2010), with hydrogen Stark-broadening updates attributed by SVO to Tremblay & Bergeron (2009)",
+  "service_description": "LTE, hydrostatic, plane-parallel pure-hydrogen DA models; air wavelengths, 4pi times Eddington flux in erg/cm2/s/Angstrom",
+  "selection": {
+    "teff_k": [
+      11500,
+      12500
+    ],
+    "logg_cgs": [
+      8,
+      8.25
+    ]
+  },
+  "retrieved_date": "2026-10-19",
+  "records": [
+    {
+      "teff_k": 11500.0,
+      "logg_cgs": 8.0,
+      "fid": 345,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=345&format=ascii",
+      "file": "data/koester-T11500-g8.txt",
+      "bytes": 146014,
+      "sha256": "dee5cd5e38658c2eddcf5cb7ce6c910d2bda4d58f76a7b3830ddf65060859a49"
+    },
+    {
+      "teff_k": 11500.0,
+      "logg_cgs": 8.25,
+      "fid": 346,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=346&format=ascii",
+      "file": "data/koester-T11500-g8.25.txt",
+      "bytes": 144763,
+      "sha256": "69c80ca8de36348de1d4f9834b62c6aa624da36ebef9227eb3a9188632f5f81a"
+    },
+    {
+      "teff_k": 11750.0,
+      "logg_cgs": 8.0,
+      "fid": 358,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=358&format=ascii",
+      "file": "data/koester-T11750-g8.txt",
+      "bytes": 145948,
+      "sha256": "97f4b9a90eb28f6cdf79f0811d080ef4f486c902b8fa7b6e8ffab4422be2d9aa"
+    },
+    {
+      "teff_k": 11750.0,
+      "logg_cgs": 8.25,
+      "fid": 359,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=359&format=ascii",
+      "file": "data/koester-T11750-g8.25.txt",
+      "bytes": 142618,
+      "sha256": "b993dc436eff56cd18851007f04c12c46f43ab2fc383b54c091210ca31562751"
+    },
+    {
+      "teff_k": 12000.0,
+      "logg_cgs": 8.25,
+      "fid": 372,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=372&format=ascii",
+      "file": "data/koester-T12000-g8.25.txt",
+      "bytes": 142420,
+      "sha256": "cca7c38a2381fc473871e4962d7d902653bee83fad6fb2a6e644a0b372a4ddea"
+    },
+    {
+      "teff_k": 12000.0,
+      "logg_cgs": 8.0,
+      "fid": 371,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=371&format=ascii",
+      "file": "data/koester-T12000-g8.txt",
+      "bytes": 144727,
+      "sha256": "7fe04920db50ed6d15f0aaf4d52f95aecdb64c0504ad43a35a492a521f163198"
+    },
+    {
+      "teff_k": 12250.0,
+      "logg_cgs": 8.0,
+      "fid": 384,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=384&format=ascii",
+      "file": "data/koester-T12250-g8.txt",
+      "bytes": 144166,
+      "sha256": "cd3878c7b13a1280128f6aee871421fa562cec4a51a174bb6cc09b55549e0db2"
+    },
+    {
+      "teff_k": 12250.0,
+      "logg_cgs": 8.25,
+      "fid": 385,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=385&format=ascii",
+      "file": "data/koester-T12250-g8.25.txt",
+      "bytes": 141925,
+      "sha256": "76998100b812c77e4d6525e229f112df685c1c64c17a8a68acc801b97ae5f1cb"
+    },
+    {
+      "teff_k": 12500.0,
+      "logg_cgs": 8.0,
+      "fid": 397,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=397&format=ascii",
+      "file": "data/koester-T12500-g8.txt",
+      "bytes": 145057,
+      "sha256": "aa4c9b894db4e494f2fb360b8c1d1a583d832a9b5206e564f181eee900bcdc82"
+    },
+    {
+      "teff_k": 12500.0,
+      "logg_cgs": 8.25,
+      "fid": 398,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=398&format=ascii",
+      "file": "data/koester-T12500-g8.25.txt",
+      "bytes": 142189,
+      "sha256": "52faae114336469b66ab0fa051f6d381ac503a74b6516f0d4b2465717cd107c4"
+    }
+  ]
+}
