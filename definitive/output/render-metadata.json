@@ -1,0 +1,256 @@
+{
+  "config": {
+    "preview_width": 1080,
+    "preview_seconds": 32,
+    "fps": 30,
+    "internal_scale": 1,
+    "padding_at_1080": 384,
+    "airy_first_zero_px_at_550nm_1080": 3.8,
+    "jitter_sigma_px_at_1080": 0.6,
+    "scatter_fraction": 0.06,
+    "moffat_alpha_px_at_1080": 40,
+    "moffat_beta": 2.5,
+    "false_color_strength": 0.85,
+    "display_exposure": 1.8,
+    "temperature_scale_K": 160,
+    "asinh_softening_K": 18,
+    "instrument_status": "Prescribed virtual optical system, not a particular telescope or an absolute angular image",
+    "display_status": "Fixed false-color temperature diagnostic; fixed exposure and reduced normalized scattering preserve pulsation visibility",
+    "chunk_frames": 120,
+    "render_workers": 2
+  },
+  "source_configuration": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "seconds": 32,
+    "physical_seconds": 1721.6,
+    "supersample": 2,
+    "limb_supersample": 8,
+    "tile_rows": 64,
+    "temporal_gauss_nodes": 2,
+    "radius_fraction_of_width": 0.49,
+    "center_fraction": [
+      0.5,
+      0.565
+    ],
+    "camera": {
+      "inclination_deg": [
+        55,
+        70
+      ],
+      "azimuth_deg": [
+        -25,
+        25
+      ],
+      "roll_deg": -20
+    },
+    "fixed_observer": {
+      "inclination_deg": 55,
+      "azimuth_deg": 0
+    },
+    "temperature_scale_K": 160,
+    "asinh_softening_K": 18,
+    "palette": "RdBu_r",
+    "palette_nodes": 4097,
+    "exposure": 0.94,
+    "labels": [
+      "@sideratlas",
+      "NO.003",
+      "THE WHITE DWARF"
+    ]
+  },
+  "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+  "frames": 960,
+  "seconds": 32,
+  "physical_seconds": 1721.6,
+  "temperature_bounds_K": [
+    11166.743692405806,
+    11428.713931467077
+  ],
+  "max_padded_linear_Y_conservation_error": 6.464120003712992e-07,
+  "cropped_Y_fraction_range": [
+    0.9986493111659991,
+    0.9986616379214055
+  ],
+  "checkpoints": [
+    {
+      "start": 0,
+      "stop": 120,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11172.39951497978,
+        11381.643278859952
+      ],
+      "max_padded_linear_Y_conservation_error": 4.864775322577231e-07,
+      "cropped_Y_fraction_range": [
+        0.9986493111659991,
+        0.9986614425279141
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 443.886486125004,
+      "sha256": "5aa2a65779d4edd4905f4099037b46338b1196a4de0013d9831c834b744338fe"
+    },
+    {
+      "start": 120,
+      "stop": 240,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11216.667868444742,
+        11377.792009413635
+      ],
+      "max_padded_linear_Y_conservation_error": 6.464120003712992e-07,
+      "cropped_Y_fraction_range": [
+        0.9986532833423286,
+        0.9986580457963244
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 444.2538773749984,
+      "sha256": "6224a9fec604b6183163ed7ff4ceb325934275fe1d4e1230e39c205cd0f2cbe7"
+    },
+    {
+      "start": 240,
+      "stop": 360,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11218.347106862637,
+        11394.848554871998
+      ],
+      "max_padded_linear_Y_conservation_error": 5.617994431883488e-07,
+      "cropped_Y_fraction_range": [
+        0.9986497727776431,
+        0.9986575900627604
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 487.33405658300035,
+      "sha256": "a6dedabea77d20ef2fd581d16730b94263d3a03e2ad4563db5d8c94968c4558b"
+    },
+    {
+      "start": 360,
+      "stop": 480,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11186.798764382323,
+        11373.683463432604
+      ],
+      "max_padded_linear_Y_conservation_error": 3.9087322056818863e-07,
+      "cropped_Y_fraction_range": [
+        0.9986493914814745,
+        0.9986616379214055
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 487.37109704199247,
+      "sha256": "df46c97d1b97ae407f7298f1d98216e5b4fd6b65853997c505c59a8465aed3f0"
+    },
+    {
+      "start": 480,
+      "stop": 600,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11166.743692405806,
+        11427.516804604467
+      ],
+      "max_padded_linear_Y_conservation_error": 5.063872277055737e-07,
+      "cropped_Y_fraction_range": [
+        0.9986495290770049,
+        0.9986573710709515
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 466.8220622499939,
+      "sha256": "fd716d5130eeb07be98a6a4490ed94b7165205c05683a71664460b7396f98f07"
+    },
+    {
+      "start": 600,
+      "stop": 720,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11176.758744585473,
+        11428.713931467077
+      ],
+      "max_padded_linear_Y_conservation_error": 5.805028646665988e-07,
+      "cropped_Y_fraction_range": [
+        0.9986532456002265,
+        0.9986566445906653
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 466.63661904200853,
+      "sha256": "0a1218f4302f19533efbb058031e540db5e6341ae3c92dd7a669311cd94e8828"
+    },
+    {
+      "start": 720,
+      "stop": 840,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11205.638598143925,
+        11373.802048124517
+      ],
+      "max_padded_linear_Y_conservation_error": 4.810398176458008e-07,
+      "cropped_Y_fraction_range": [
+        0.9986527364911466,
+        0.9986564350434872
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 476.871862666012,
+      "sha256": "1408d60091e98f0ecf1c47f0b56af19a2cd1a328eaa5a3757b653b09fe28eb89"
+    },
+    {
+      "start": 840,
+      "stop": 960,
+      "frames": 120,
+      "fingerprint": "d89b7552af290315df957bf138324ce472456868629cfd0256c2c65374eeb955",
+      "temperature_bounds_K": [
+        11196.966803300362,
+        11371.756836764705
+      ],
+      "max_padded_linear_Y_conservation_error": 4.821557504364193e-07,
+      "cropped_Y_fraction_range": [
+        0.9986543649319215,
+        0.9986558230283159
+      ],
+      "effective_Y_wavelength_nm": 551.925981312424,
+      "repaired_limb_sliver_rays": 8,
+      "elapsed_s": 477.1129152920039,
+      "sha256": "cb3ad7a506d1e8bb5bda7e92da9bcedd14f3a9b17a1d02266a65d3cfcd4ad628"
+    }
+  ],
+  "export": {
+    "input": "16-bit-per-channel sRGB RGB48LE",
+    "output": "H.264 High / yuv420p / Rec.709 limited / MP4",
+    "crf": 14,
+    "maxrate_bps": 20000000,
+    "preset": "slow",
+    "encoder_threads": 4,
+    "audio": false,
+    "faststart": true,
+    "quantization": "zscale error diffusion at final 8-bit conversion, not astrophysical texture or added decorative grain",
+    "filter": "format=gbrp16le,zscale=primariesin=709:transferin=iec61966-2-1:matrixin=gbr:rangein=full:primaries=709:transfer=709:matrix=709:range=limited:chromal=left:filter=spline36:agamma=0:dither=error_diffusion,format=yuv420p",
+    "ffmpeg_version": "ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers"
+  },
+  "continuous_evolution": true,
+  "repeated_segments": false,
+  "seamless_loop_forcing": false,
+  "elapsed_this_run_s": 1885.0793637919996,
+  "assembly": {
+    "method": "Verified byte-for-byte checkpoint copies in private temporary storage; FFmpeg concat with -xerror and stream copy",
+    "checkpoints_verified": 8,
+    "frames_verified": 960,
+    "duration_verified_s": 32,
+    "reencoded": false,
+    "physical_calculations_or_rendered_frames_changed": false,
+    "sha256": "774d13211214377c658319b17cec8f3cb71798a19e7e71e08d9d98a914f30626"
+  }
+}

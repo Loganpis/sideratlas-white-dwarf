@@ -1,44 +1,46 @@
 NO.003 — THE WHITE DWARF
 @sideratlas
-DA / ZZ Ceti — 0.6 M☉ — 12,000 K
+DA / ZZ Ceti — 0.593 M☉ — 11,290 K
 
-Warm and cool regions brighten and fade out of step
-Nonradial modes interfere across the surface
-Their combined temperature pattern continually changes
+Warm and cool regions brighten out of step
+Six gravity modes interfere across the surface
 Hydrogen shapes the spectrum and darkens the limb
-Gravity slightly redshifts the light
+Gravity slightly redshifts the escaping light
 
 CALCULATED
-Cold mass–radius estimate: R ≈ 8,658 km
-Three spherical-harmonic photospheric flux patterns
-T_eff = T₀(1 + δF/F)^(1/4)
-Periods: 215.20, 270.46 and 304.05 s
-Interpolated DA atmosphere spectra and flux-normalized limb emission
-Atmospheric radiance evaluated at the varying local temperature
-Schwarzschild light bending, redshift and differential photon delays
-z ≈ 0.000102, equivalent to ≈30.7 km/s
-Separate physical light curve for a fixed observer at i = 55°, az = 0°
+Six interior g-mode eigenfrequencies from a WDEC structure with GYRE
+Dipole and quadrupole surface patterns
+Periods ≈ 247, 287, 316, 349, 397 and 488 s
+R ≈ 9,018 km; T_eff = T₀(1 + δF/F)^(1/4)
+DA spectral radiance at each local temperature
+Limb darkening, weak light bending, redshift and relative photon delays
+z ≈ 0.000097; a separate physical light curve for a fixed observer
 
-ASSUMPTIONS AND VISUALIZATION
-Representative star, not a reconstruction of a named white dwarf
-Surface mode geometry, phases and local amplitudes are prescribed
-Local bolometric semi-amplitudes: 3%, 1.2%, 0.8%
-No interior eigenmode, convective driving or fluid-motion solution
-Spherical surface; rotation, displacement and Doppler velocities omitted
-Hybrid 1D hydrogen spectra plus 3D broadband limb fits
-Finite-temperature radius corrections and pulsational gravity changes omitted
-Blue and red are false colors of temperature departures, not visible emitted colors
-Fixed −160 to +160 K scale; asinh contrast with 18 K softening
-Contrast enhancement changes only the display, not physical amplitudes
-No automatic rescaling, invented textures or exaggerated deformation
-One slow camera scan; it does not rotate the star or change the fixed-observer light curve
-32 seconds cover 1,721.6 physical seconds, sped up 53.8×
-Continuous evolution, not four repeated clips or a forced seamless loop
+ASSUMPTIONS
+Representative star, not a reconstruction of a named object
+Excited subset, m values, phases and surface amplitudes are prescribed
+No validated convective driving or nonlinear saturation calculation
+Hybrid 1D LTE hydrogen spectra and 3D broadband limb fits
+Published RHD granules are about 0.85 km across, only 0.05 pixel here
+Individual granules remain unresolved; no enlarged cells or invented turbulence
+Nonmagnetic spherical star; no imposed magnetic spots, rotation or deformation
+Blue and warm tones show temperature departures, not visible stellar colors
+Fixed ±160 K scale; asinh contrast with 18 K softening
+Contrast changes the display, never the temperature amplitudes
+Subtle spectral halo from a normalized virtual optical PSF
+Six percent of the light is redistributed into broad wings, not added emission
+Camera motion changes the view, not the fixed-observer light curve
+32 seconds span 1,721.6 physical seconds at 53.8× speed
+Continuous evolution, with no forced seamless repetition
 
 SOURCES
-Nauenberg 1972; Koester 2010; Tremblay & Bergeron 2009
-Claret et al. 2020; Romero et al. 2012; Wu & Goldreich 1999
-CIE 1931 2° observer, official 2019 dataset; atmosphere spectra via SVO
-Full citations, equations, assumptions and validation in the repository
+Bischoff-Kim & Montgomery 2018; Townsend & Teitler 2013
+Koester 2010; Tremblay & Bergeron 2009; Claret et al. 2020
+Wu & Goldreich 1999; Van Grootel et al. 2012
+Tremblay et al. 2013, 2015; Rui, Fuller & Hermes 2025
+Gentile Fusillo et al. 2018; Photutils PSF definitions
+Hollands et al. 2026; Pechenick et al. 1983; Trujillo et al. 2001
+CIE 1931; sRGB/W3C
+Full citations, equations, imaging choices and validation in the repository
 
 Code: https://github.com/Loganpis/sideratlas-white-dwarf

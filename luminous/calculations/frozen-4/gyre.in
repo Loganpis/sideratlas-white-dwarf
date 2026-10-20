@@ -1,0 +1,53 @@
+&constants
+ G_GRAVITY = 6.67259d-8
+/
+&model
+ model_type = 'EVOL'
+ file = '../../../data/wdec-evolved'
+ file_format = 'WDEC'
+/
+&mode
+ l = 1
+ n_pg_min = -8
+ n_pg_max = -4
+/
+&mode
+ l = 2
+ n_pg_min = -10
+ n_pg_max = -6
+/
+&osc
+ outer_bound = 'VACUUM'
+ nonadiabatic = .true.
+ conv_scheme = 'FROZEN_PESNELL_4'
+/
+&rot
+/
+&num
+ diff_scheme = 'COLLOC_GL4'
+/
+&scan
+ grid_type = 'INVERSE'
+ freq_min = 0.002
+ freq_max = 0.0045
+ freq_min_units = 'HZ'
+ freq_max_units = 'HZ'
+ n_freq = 600
+/
+&grid
+ w_osc = 40
+ w_exp = 8
+ w_ctr = 40
+/
+&ad_output
+ summary_file = 'adiabatic.h5'
+ summary_item_list = 'id,l,n_pg,omega,freq'
+ freq_units = 'HZ'
+/
+&nad_output
+ summary_file = 'nonadiabatic.h5'
+ summary_item_list = 'id,l,n_pg,n_p,n_g,omega,freq,E_norm,eta'
+ freq_units = 'HZ'
+ detail_template = 'mode.%l.%n_pg.h5'
+ detail_item_list = 'l,n_pg,freq,x,xi_r,xi_h,lag_T,lag_L,lag_S'
+/

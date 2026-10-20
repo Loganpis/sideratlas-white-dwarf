@@ -1,0 +1,13 @@
+{
+  "structure_source": "GYRE v9.1.1 models/wdec/m0.593/evolved",
+  "input_sha256": "9ec40e17400781d0adc0c2741b264dafb0928f96ee54aae63654d75d7f10a0f0",
+  "points": 435,
+  "mass_g": 1.179475705930711e+33,
+  "radius_cm": 901813376.1753138,
+  "luminosity_erg_s": 9.415292086379208e+30,
+  "teff_K": 11290.020041311296,
+  "logg_cgs": 7.985750094860106,
+  "equilibrium": "WDEC relaxed model, MESA EOS and opacity flags enabled in supplied controlparams",
+  "composition": "Supplied parameterized C/O core; He and H layers; not a new full evolutionary sequence",
+  "reference_G_cgs": 6.67259e-08
+}

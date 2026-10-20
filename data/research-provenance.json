@@ -1,0 +1,15 @@
+{
+  "gyre_version": "9.1.1",
+  "gyre_commit": "d9ebbd1f3ca941042c5c9bd667102d9cf30c035b",
+  "forum_commit": "9f8378e654b37fc04726a58377a04fc873ebd65d",
+  "sdk": "MESA SDK 26.6.1, gfortran 15.2.0",
+  "model_url": "https://github.com/rhdtownsend/gyre/blob/v9.1.1/models/wdec/m0.593/evolved",
+  "model_sha256": "9ec40e17400781d0adc0c2741b264dafb0928f96ee54aae63654d75d7f10a0f0",
+  "new_structure_evolution_run": false,
+  "solver_source_modified": false,
+  "original_B_release": "https://github.com/Loganpis/sideratlas-white-dwarf/releases/tag/v1.0.0",
+  "original_B_unchanged": true,
+  "sdk_pkg_md5_verified": "2e72f36face25328bfc5d8c11cfdd662",
+  "sdk_source": "https://zenodo.org/records/20598224",
+  "original_physics_source_sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5"
+}

@@ -1,0 +1,70 @@
+{
+  "selected_modes": [
+    {
+      "l": 1,
+      "n_pg": -4,
+      "period_s": 315.78236507927363,
+      "coarse_fine_difference_s": 9.899314153472005e-05,
+      "fine_finer_difference_s": 3.053446562262252e-08,
+      "boundary_sensitivity_s": 5.9056560530734714e-08,
+      "background_thinning_sensitivity_s": -0.7097612091767473
+    },
+    {
+      "l": 1,
+      "n_pg": -6,
+      "period_s": 397.33744306871,
+      "coarse_fine_difference_s": 0.00016256766480182705,
+      "fine_finer_difference_s": 6.836654620201443e-08,
+      "boundary_sensitivity_s": 1.7843211708168383e-07,
+      "background_thinning_sensitivity_s": -0.5877798951786986
+    },
+    {
+      "l": 1,
+      "n_pg": -8,
+      "period_s": 488.1545239796074,
+      "coarse_fine_difference_s": 6.75600020940692e-05,
+      "fine_finer_difference_s": 4.49376784672495e-08,
+      "boundary_sensitivity_s": 1.736099591198581e-06,
+      "background_thinning_sensitivity_s": 0.06532914036603188
+    },
+    {
+      "l": 2,
+      "n_pg": -6,
+      "period_s": 247.451848394301,
+      "coarse_fine_difference_s": 6.982111847264605e-05,
+      "fine_finer_difference_s": 5.3606186156685e-10,
+      "boundary_sensitivity_s": 4.83559119857091e-07,
+      "background_thinning_sensitivity_s": 0.15035786447168675
+    },
+    {
+      "l": 2,
+      "n_pg": -8,
+      "period_s": 286.9182814124411,
+      "coarse_fine_difference_s": 9.622681903920238e-05,
+      "fine_finer_difference_s": 4.855564839090221e-10,
+      "boundary_sensitivity_s": 9.485056011726556e-07,
+      "background_thinning_sensitivity_s": 0.06507013279457396
+    },
+    {
+      "l": 2,
+      "n_pg": -10,
+      "period_s": 348.68568011766195,
+      "coarse_fine_difference_s": 3.4338320858751104e-05,
+      "fine_finer_difference_s": 4.012861154478742e-09,
+      "boundary_sensitivity_s": 4.687769376232609e-06,
+      "background_thinning_sensitivity_s": -1.0173039593755107
+    }
+  ],
+  "mode_counts": {
+    "coarse": 49,
+    "fine": 49,
+    "finer": 49,
+    "boundary": 49,
+    "scan": 49,
+    "coarsened": 49
+  },
+  "scan_keys_match": true,
+  "max_scan_period_difference_s": 1.5933210306684487e-10,
+  "GYRE_regression": "Official test/ad/wdec/m0.593 passed; see validation/gyre-regression.txt",
+  "limitation": "Integration convergence on one supplied 435-point background; background thinning is a sensitivity test, not a physical error bound or full equilibrium-structure convergence"
+}

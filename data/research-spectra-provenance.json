@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "teff_k": 11000,
+      "logg_cgs": 7.75,
+      "fid": 318,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=318&format=ascii",
+      "file": "data/koester-T11000-g7.75.txt",
+      "sha256": "62d23ad51ff614ce5a9188803601e8202fbd4c635e6592dbbd41c3c13e9e3a22"
+    },
+    {
+      "teff_k": 11000,
+      "logg_cgs": 8,
+      "fid": 319,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=319&format=ascii",
+      "file": "data/koester-T11000-g8.txt",
+      "sha256": "5fb4ad8b6829659e644f299918acd7980df77d4f3da28a5388d3c6ac8aed6964"
+    },
+    {
+      "teff_k": 11250,
+      "logg_cgs": 7.75,
+      "fid": 331,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=331&format=ascii",
+      "file": "data/koester-T11250-g7.75.txt",
+      "sha256": "26e3031676593136b894db3dddd3cb3e1eee264f8334a039496dae0ca240e560"
+    },
+    {
+      "teff_k": 11250,
+      "logg_cgs": 8,
+      "fid": 332,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=332&format=ascii",
+      "file": "data/koester-T11250-g8.txt",
+      "sha256": "1f1cfaa1179c84756f7671083fb26d0452c368f99ff903729e5d66ad14da90eb"
+    },
+    {
+      "teff_k": 11500,
+      "logg_cgs": 7.75,
+      "fid": 344,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=344&format=ascii",
+      "file": "data/koester-T11500-g7.75.txt",
+      "sha256": "dd1875d01ca1f3b082d44933e88218426aaaa8757ab08d460731212cf2a85427"
+    },
+    {
+      "teff_k": 11500,
+      "logg_cgs": 8,
+      "fid": 345,
+      "url": "https://svo2.cab.inta-csic.es/theory/newov2/ssap.php?model=koester2&fid=345&format=ascii",
+      "file": "data/koester-T11500-g8.txt",
+      "sha256": "dee5cd5e38658c2eddcf5cb7ce6c910d2bda4d58f76a7b3830ddf65060859a49"
+    }
+  ],
+  "source": "SVO Koester DA spectra",
+  "retrieved": "2026-10-20"
+}

@@ -1,0 +1,67 @@
+{
+  "modes": [
+    {
+      "l": 1,
+      "n_pg": -4,
+      "m": 0,
+      "phase_rad": 0.4,
+      "period_infinity_s": 315.8130324466865,
+      "period_GYRE_s": 315.78236507927363,
+      "base_flux_amplitude": 0.014254824549938525,
+      "normalized_inertia": 6.948514156682874e-08
+    },
+    {
+      "l": 1,
+      "n_pg": -6,
+      "m": 1,
+      "phase_rad": 1.2,
+      "period_infinity_s": 397.3760306996261,
+      "period_GYRE_s": 397.33744306871,
+      "base_flux_amplitude": 0.014254824549938525,
+      "normalized_inertia": 2.9498909120211094e-08
+    },
+    {
+      "l": 1,
+      "n_pg": -8,
+      "m": -1,
+      "phase_rad": 2.1,
+      "period_infinity_s": 488.20193135822205,
+      "period_GYRE_s": 488.1545239796074,
+      "base_flux_amplitude": 0.014254824549938525,
+      "normalized_inertia": 3.7004564489383968e-09
+    },
+    {
+      "l": 2,
+      "n_pg": -6,
+      "m": 1,
+      "phase_rad": 0.7,
+      "period_infinity_s": 247.4758798083092,
+      "period_GYRE_s": 247.451848394301,
+      "base_flux_amplitude": 0.015937378350497692,
+      "normalized_inertia": 6.668165980633465e-09
+    },
+    {
+      "l": 2,
+      "n_pg": -8,
+      "m": 2,
+      "phase_rad": 1.8,
+      "period_infinity_s": 286.9461456294671,
+      "period_GYRE_s": 286.9182814124411,
+      "base_flux_amplitude": 0.015937378350497692,
+      "normalized_inertia": 3.994840569164373e-09
+    },
+    {
+      "l": 2,
+      "n_pg": -10,
+      "m": -2,
+      "phase_rad": 2.8,
+      "period_infinity_s": 348.7195429075017,
+      "period_GYRE_s": 348.68568011766195,
+      "base_flux_amplitude": 0.015937378350497692,
+      "normalized_inertia": 9.783453721390379e-10
+    }
+  ],
+  "target_linear_temperature_rms_K": 40.23431371354555,
+  "prescribed": "Excited subset, equal surface-flux variance per mode, m assignments and phases; no growth-rate calculation or saturation model",
+  "rotation": "None; m denotes a real standing-wave angular basis in a degenerate nonrotating spectrum"
+}

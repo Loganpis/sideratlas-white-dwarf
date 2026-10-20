@@ -1,0 +1,46 @@
+&constants
+ G_GRAVITY = 6.67259d-8
+/
+&model
+ model_type = 'EVOL'
+ file = '../../data/wdec-evolved'
+ file_format = 'WDEC'
+/
+&mode
+ l = 1
+/
+&mode
+ l = 2
+/
+&osc
+ outer_bound = 'UNNO'
+ adiabatic = .true.
+ nonadiabatic = .false.
+ inertia_norm = 'BOTH'
+/
+&rot
+/
+&num
+ diff_scheme = 'COLLOC_GL6'
+/
+&scan
+ grid_type = 'INVERSE'
+ freq_min = 0.001
+ freq_max = 0.005
+ freq_min_units = 'HZ'
+ freq_max_units = 'HZ'
+ n_freq = 1200
+/
+&grid
+ w_osc = 80
+ w_exp = 16.0
+ w_ctr = 80
+/
+&ad_output
+ summary_file = 'summary.h5'
+ summary_item_list = 'id,l,n_pg,n_p,n_g,omega,freq,E_norm'
+ freq_units = 'HZ'
+ 
+/
+&nad_output
+/

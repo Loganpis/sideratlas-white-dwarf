@@ -1,0 +1,18 @@
+{
+  "preview_width": 540,
+  "preview_seconds": 8,
+  "fps": 24,
+  "internal_scale": 2,
+  "padding_at_1080": 384,
+  "airy_first_zero_px_at_550nm_1080": 3.8,
+  "jitter_sigma_px_at_1080": 0.6,
+  "scatter_fraction": 0.08,
+  "moffat_alpha_px_at_1080": 40,
+  "moffat_beta": 2.5,
+  "false_color_strength": 0.75,
+  "display_exposure": 2.0,
+  "temperature_scale_K": 160,
+  "asinh_softening_K": 18,
+  "instrument_status": "Prescribed virtual optical system; no actual telescope, distance or measured PSF is claimed",
+  "display_status": "Fixed false-color diagnostic mixed with calculated spectral chromaticity at fixed weight; exposure curve is a display choice"
+}

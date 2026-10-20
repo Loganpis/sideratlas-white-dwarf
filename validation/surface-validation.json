@@ -1,0 +1,24 @@
+{
+  "convective_grid_max_temperature_error_K": 0.02642132881555881,
+  "convective_time_step_half_max_temperature_error_K": 5.73074605868254e-09,
+  "convective_extra_terminal_padding_max_flux_error": 0.0,
+  "convective_constant_tau_analytic_max_flux_error": 9.381384558082573e-14,
+  "convective_grid_temperature_range_K": [
+    11233.868307531273,
+    11355.565840124258
+  ],
+  "linear_photometry_64x128_to_96x192_max_relative_flux_error": 5.107269496207323e-09,
+  "convective_photometry_64x128_to_96x192_max_relative_flux_error": 1.994337361921339e-08,
+  "fixed_observer": {
+    "inclination_deg": 55,
+    "azimuth_deg": 0,
+    "independent_of_camera": true,
+    "passband": "CIE photopic Y; not bolometric or false-color image luminance"
+  },
+  "peak_to_peak_flux_percent": {
+    "version_b": 1.637033096848306,
+    "interior_modes": 1.7467907708942576,
+    "convection_sensitivity": 0.8621665042966464
+  },
+  "spectral_sampling_half_max_relative_CIE_Y_difference": 7.428694757116716e-06
+}

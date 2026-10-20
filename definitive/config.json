@@ -1,0 +1,20 @@
+{
+  "preview_width": 1080,
+  "preview_seconds": 32,
+  "fps": 30,
+  "internal_scale": 1,
+  "padding_at_1080": 384,
+  "airy_first_zero_px_at_550nm_1080": 3.8,
+  "jitter_sigma_px_at_1080": 0.6,
+  "scatter_fraction": 0.06,
+  "moffat_alpha_px_at_1080": 40,
+  "moffat_beta": 2.5,
+  "false_color_strength": 0.85,
+  "display_exposure": 1.8,
+  "temperature_scale_K": 160,
+  "asinh_softening_K": 18,
+  "instrument_status": "Prescribed virtual optical system, not a particular telescope or an absolute angular image",
+  "display_status": "Fixed false-color temperature diagnostic; fixed exposure and reduced normalized scattering preserve pulsation visibility",
+  "chunk_frames": 120,
+  "render_workers": 2
+}

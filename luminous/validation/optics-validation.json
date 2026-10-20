@@ -1,0 +1,64 @@
+{
+  "airy_unit_flux_error": 4.440892098500626e-16,
+  "airy_kernel_min": 2.7296856156386417e-09,
+  "airy_first_zero_encircled_energy": 0.837798214092573,
+  "airy_analytic_encircled_energy": 0.8377848691733143,
+  "moffat_unit_flux_error": 0.0,
+  "moffat_kernel_min": 4.232661700191894e-11,
+  "moffat_encircled_energy_at_3alpha": 0.9682771066376816,
+  "moffat_analytic_encircled_energy_at_3alpha": 0.9683772233983162,
+  "spectrum_65_to_1881_nodes_max_absolute_MTF_difference": 5.168107081421347e-05,
+  "local_SED_effective_PSF_variation": [
+    {
+      "temperature_K": 11150.020041311296,
+      "mu": 0.02,
+      "max_absolute_MTF_difference": 0.0012649759057855314
+    },
+    {
+      "temperature_K": 11150.020041311296,
+      "mu": 0.5,
+      "max_absolute_MTF_difference": 0.0001235367352248884
+    },
+    {
+      "temperature_K": 11150.020041311296,
+      "mu": 1.0,
+      "max_absolute_MTF_difference": 4.9973581324413985e-05
+    },
+    {
+      "temperature_K": 11290.020041311296,
+      "mu": 0.02,
+      "max_absolute_MTF_difference": 0.001171685206542178
+    },
+    {
+      "temperature_K": 11290.020041311296,
+      "mu": 0.5,
+      "max_absolute_MTF_difference": 5.4498952735959616e-05
+    },
+    {
+      "temperature_K": 11290.020041311296,
+      "mu": 1.0,
+      "max_absolute_MTF_difference": 0.00011628493058754574
+    },
+    {
+      "temperature_K": 11430.020041311296,
+      "mu": 0.02,
+      "max_absolute_MTF_difference": 0.0010803827529303756
+    },
+    {
+      "temperature_K": 11430.020041311296,
+      "mu": 0.5,
+      "max_absolute_MTF_difference": 1.3107823487984449e-05
+    },
+    {
+      "temperature_K": 11430.020041311296,
+      "mu": 1.0,
+      "max_absolute_MTF_difference": 0.00018117222359520513
+    }
+  ],
+  "synthetic_scene_padded_luminance_error": 4.440892098500626e-16,
+  "synthetic_scene_pad_doubling_max_display_linear_difference": 0.0001386962449831143,
+  "synthetic_scene_pad_doubling_rms_display_linear_difference": 8.542302883890979e-05,
+  "no_convection_response_in_render": true,
+  "no_temperature_amplitude_increase": true,
+  "known_approximation": "One disk-spectrum-weighted photopic diffraction core at all surface positions; broad scattering is achromatic and integrates actual spectral RGB"
+}

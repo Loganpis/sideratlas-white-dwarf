@@ -88,13 +88,13 @@ class Samples:
 
 
 class Tile:
-    def __init__(self,row0,row1,config,star,ray_grid):
+    def __init__(self,row0,row1,config,star,ray_grid,samples_class=Samples):
         self.row0=row0;self.row1=row1;w=config['width'];ss=config['supersample']
         self.ss=ss;self.limb_ss=config['limb_supersample'];cx,cy=np.array(config['center_fraction'])*[w,config['height']]
         radius=config['radius_fraction_of_width']*w
         yy,xx=np.mgrid[row0*ss:row1*ss,:w*ss]
         x=((xx+.5)/ss-cx)/radius;y=-((yy+.5)/ss-cy)/radius
-        self.regular=Samples(x,y,star,ray_grid)
+        self.regular=samples_class(x,y,star,ray_grid)
         # Only pixels intersecting the circular limb use an 8x8 subgrid.
         py,px=np.mgrid[row0:row1,:w]
         rho=np.hypot(px+.5-cx,py+.5-cy)
@@ -105,7 +105,7 @@ class Tile:
         dy,dx=np.mgrid[:n,:n]
         x=(ex[:,None]+(dx.ravel()+.5)/n-cx)/radius
         y=-(ey[:,None]+row0+(dy.ravel()+.5)/n-cy)/radius
-        self.edge_samples=Samples(x,y,star,ray_grid)
+        self.edge_samples=samples_class(x,y,star,ray_grid)
         self.edge_counts=self.edge_samples.mask.sum(axis=1)
         self.fallback=(self.edge_counts==0)&(self.edge_area>1e-10)
         # Extremely thin slivers may contain none of the 8x8 intensity nodes.
@@ -118,7 +118,7 @@ class Tile:
         cc=np.sum(p0*p0,axis=1)-apparent_radius**2
         root=(-bb+np.sqrt(np.maximum(0,bb*bb-4*aa*cc)))/(2*aa)
         point=p0+.5*root[:,None]*direction
-        self.fallback_samples=Samples(point[:,0]/radius,-point[:,1]/radius,star,ray_grid)
+        self.fallback_samples=samples_class(point[:,0]/radius,-point[:,1]/radius,star,ray_grid)
 
     def project(self,regular_colors,edge_colors,fallback_colors):
         ss=self.ss;rows=self.row1-self.row0;w=self.edge.shape[1]
@@ -134,12 +134,11 @@ class Tile:
 
 
 class Renderer:
-    def __init__(self,config):
-        self.config=config;self.star=Star();self.cache=ColourCache()
-        np.testing.assert_allclose(self.cache.temperatures,np.arange(11800,12201,10))
+    def __init__(self,config,star=None,cache=None,samples_class=Samples):
+        self.config=config;self.star=Star() if star is None else star;self.cache=ColourCache() if cache is None else cache
         np.testing.assert_allclose(np.sqrt(self.cache.mu),np.linspace(0,1,129))
         self.cache_y=self.cache.xyz[...,1]
-        self.center_y=float(self.cache.intensity(12000.,np.array([1.]))[0,4])
+        self.center_y=float(self.cache.intensity(self.star.temperature_k,np.array([1.]))[0,4])
         n=config['palette_nodes'];palette=colormaps[config['palette']].resampled(n)(np.linspace(0,1,n))[:,:3]
         self.palette=srgb_to_linear(palette)
         grid=np.linspace(0,1,4097);cp,dt=ray_map(grid,self.star.compactness)
@@ -150,7 +149,7 @@ class Renderer:
         for row0 in range(0,h,rows):
             row1=min(h,row0+rows)
             if row1<cy-r-1 or row0>cy+r+1:continue
-            self.tiles.append(Tile(row0,row1,config,self.star,ray_grid))
+            self.tiles.append(Tile(row0,row1,config,self.star,ray_grid,samples_class))
         self.nodes,self.weights=leggauss(config['temporal_gauss_nodes']);self.weights=self.weights/2
         self.text_alpha=self.title_mask()
         self.rgb_bounds=[np.inf,-np.inf];self.temperature_bounds=[np.inf,-np.inf]

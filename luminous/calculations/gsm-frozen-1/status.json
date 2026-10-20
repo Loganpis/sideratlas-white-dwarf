@@ -1,0 +1,6 @@
+{
+  "closure": "1",
+  "used_in_preview": false,
+  "extra_assumption": "Background cooling coefficient c_egv=0, as specified by GSM 1.10",
+  "returncode": 0
+}

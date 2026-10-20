@@ -1,0 +1,245 @@
+{
+  "modes": [
+    {
+      "l": 1,
+      "n_pg": -4,
+      "m": 0,
+      "period_GYRE_s": 315.78236507927363,
+      "surface_flux_amplitude_prescribed": 0.014254824549938525,
+      "photopic_visibility_per_unit_local_bolometric_flux": [
+        0.22480620100230073,
+        -3.226445638457426e-05
+      ],
+      "predicted_linear_photopic_semiamplitude_percent": 0.32045729860304456,
+      "frozen_surface_f_1": [
+        2011.090076787945,
+        61.93101878474523
+      ],
+      "frozen_surface_f_4": [
+        506.23679372558877,
+        26.966766699021083
+      ],
+      "frozen_f_magnitude_ratio_1_over_4": 3.968883396352287,
+      "frozen_f_phase_difference_deg": -1.2853594638042103,
+      "nonadiabatic_frequency_Hz": {
+        "1": [
+          0.003166737952150995,
+          -6.016595957778918e-12
+        ],
+        "4": [
+          0.003166737951765532,
+          -6.5489964296333836e-12
+        ]
+      },
+      "nonadiabatic_frequency_resolution_difference_Hz": {
+        "1": 9.492033543716731e-10,
+        "4": 9.49203632361068e-10
+      }
+    },
+    {
+      "l": 1,
+      "n_pg": -6,
+      "m": 1,
+      "period_GYRE_s": 397.33744306871,
+      "surface_flux_amplitude_prescribed": 0.014254824549938525,
+      "photopic_visibility_per_unit_local_bolometric_flux": [
+        0.32105652983214816,
+        -3.662064189666596e-05
+      ],
+      "predicted_linear_photopic_semiamplitude_percent": 0.45766045331409827,
+      "frozen_surface_f_1": [
+        3195.9129368105973,
+        87.8965270657142
+      ],
+      "frozen_surface_f_4": [
+        807.6574438041894,
+        38.7633733596274
+      ],
+      "frozen_f_magnitude_ratio_1_over_4": 3.953960299964834,
+      "frozen_f_phase_difference_deg": -1.1723953060378838,
+      "nonadiabatic_frequency_Hz": {
+        "1": [
+          0.0025167524939939913,
+          -2.1598353017582232e-11
+        ],
+        "4": [
+          0.00251675249259943,
+          -2.3718873834153576e-11
+        ]
+      },
+      "nonadiabatic_frequency_resolution_difference_Hz": {
+        "1": 1.0256614706873282e-09,
+        "4": 1.0256604415609635e-09
+      }
+    },
+    {
+      "l": 1,
+      "n_pg": -8,
+      "m": -1,
+      "period_GYRE_s": 488.1545239796074,
+      "surface_flux_amplitude_prescribed": 0.014254824549938525,
+      "photopic_visibility_per_unit_local_bolometric_flux": [
+        6.714135385546612e-18,
+        -1.3810202788874562e-21
+      ],
+      "predicted_linear_photopic_semiamplitude_percent": 9.57088239501132e-18,
+      "frozen_surface_f_1": [
+        4829.1721334874355,
+        119.81707445967386
+      ],
+      "frozen_surface_f_4": [
+        1223.7688143347443,
+        53.33225457034541
+      ],
+      "frozen_f_magnitude_ratio_1_over_4": 3.943618652303123,
+      "frozen_f_phase_difference_deg": -1.0741105218817866,
+      "nonadiabatic_frequency_Hz": {
+        "1": [
+          0.002048531693095888,
+          -2.4992532232841253e-10
+        ],
+        "4": [
+          0.0020485316772397115,
+          -2.791917303515526e-10
+        ]
+      },
+      "nonadiabatic_frequency_resolution_difference_Hz": {
+        "1": 2.733979220968921e-10,
+        "4": 2.7340552021901074e-10
+      }
+    },
+    {
+      "l": 2,
+      "n_pg": -6,
+      "m": 1,
+      "period_GYRE_s": 247.451848394301,
+      "surface_flux_amplitude_prescribed": 0.015937378350497692,
+      "photopic_visibility_per_unit_local_bolometric_flux": [
+        0.1506573174363395,
+        3.050209830851265e-06
+      ],
+      "predicted_linear_photopic_semiamplitude_percent": 0.2401082669746079,
+      "frozen_surface_f_1": [
+        3686.318821775755,
+        125.72907455767199
+      ],
+      "frozen_surface_f_4": [
+        925.8144742906203,
+        54.37792523985046
+      ],
+      "frozen_f_magnitude_ratio_1_over_4": 3.977164490150571,
+      "frozen_f_phase_difference_deg": -1.407992055407175,
+      "nonadiabatic_frequency_Hz": {
+        "1": [
+          0.004041190276144913,
+          -1.0343201952387731e-10
+        ],
+        "4": [
+          0.004041190267865294,
+          -1.1708545950646728e-10
+        ]
+      },
+      "nonadiabatic_frequency_resolution_difference_Hz": {
+        "1": 1.1366693645873603e-09,
+        "4": 1.136673254653913e-09
+      }
+    },
+    {
+      "l": 2,
+      "n_pg": -8,
+      "m": 2,
+      "period_GYRE_s": 286.9182814124411,
+      "surface_flux_amplitude_prescribed": 0.015937378350497692,
+      "photopic_visibility_per_unit_local_bolometric_flux": [
+        0.10758047301556421,
+        1.8784751539029003e-06
+      ],
+      "predicted_linear_photopic_semiamplitude_percent": 0.17145507018359293,
+      "frozen_surface_f_1": [
+        4963.735665010746,
+        157.3872801903264
+      ],
+      "frozen_surface_f_4": [
+        1249.6346732339284,
+        68.58745961509054
+      ],
+      "frozen_f_magnitude_ratio_1_over_4": 3.968173143680489,
+      "frozen_f_phase_difference_deg": -1.325491309144662,
+      "nonadiabatic_frequency_Hz": {
+        "1": [
+          0.0034853129750126413,
+          -2.308575773445077e-10
+        ],
+        "4": [
+          0.003485312957040572,
+          -2.650400581263657e-10
+        ]
+      },
+      "nonadiabatic_frequency_resolution_difference_Hz": {
+        "1": 1.1586815899259578e-09,
+        "4": 1.1586890596563617e-09
+      }
+    },
+    {
+      "l": 2,
+      "n_pg": -10,
+      "m": -2,
+      "period_GYRE_s": 348.68568011766195,
+      "surface_flux_amplitude_prescribed": 0.015937378350497692,
+      "photopic_visibility_per_unit_local_bolometric_flux": [
+        3.222784985062374e-18,
+        -5.245418269958291e-22
+      ],
+      "predicted_linear_photopic_semiamplitude_percent": 5.1362744329566125e-18,
+      "frozen_surface_f_1": [
+        7338.106227056738,
+        210.27730189344126
+      ],
+      "frozen_surface_f_4": [
+        1852.4445114002187,
+        92.61255743177715
+      ],
+      "frozen_f_magnitude_ratio_1_over_4": 3.957992289421774,
+      "frozen_f_phase_difference_deg": -1.2207153470911996,
+      "nonadiabatic_frequency_Hz": {
+        "1": [
+          0.002867912607240088,
+          -1.371327151455213e-09
+        ],
+        "4": [
+          0.0028679125177392133,
+          -1.6339565901070493e-09
+        ]
+      },
+      "nonadiabatic_frequency_resolution_difference_Hz": {
+        "1": 2.6590968408540114e-10,
+        "4": 2.65901876158113e-10
+      }
+    }
+  ],
+  "format_conversion_max_relative_adiabatic_frequency_difference": 1.3743270965704824e-08,
+  "intensity_response": {
+    "mu": [
+      0.02,
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "dln_Y_dln_T": [
+      2.9983136191317072,
+      2.554055569159156,
+      2.3970721425351984,
+      2.3119764437718135,
+      2.2582854158035377
+    ]
+  },
+  "nonadiabatic_status": "Diagnostic only; none of these flux eigenfunctions, growth rates or phases is used in the preview",
+  "assumptions": [
+    "GSM 1.10 freezes background cooling coefficient c_egv to zero",
+    "Frozen convective transport is inadequate to establish DAV driving",
+    "No calibrated time-dependent-convection closure or nonlinear saturated excitation is available",
+    "Surface-flux normalization, mode selection, m assignments and phases therefore remain prescribed"
+  ],
+  "atmosphere_status": "Retained hydrostatic LTE DA spectra and DA-3D broadband angular fits; exact monochromatic intensities for a matching grid were not publicly available in the inspected sources"
+}
