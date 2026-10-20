@@ -1,0 +1,46 @@
+{
+  "version": "2.1.0",
+  "one_final_film": true,
+  "preserved": {
+    "physical_inputs_match_v2": true,
+    "six_modes": true,
+    "version_B_camera": true,
+    "black_background": true,
+    "only_labels": [
+      "THE WHITE DWARF",
+      "@sideratlas",
+      "NO.003"
+    ]
+  },
+  "included_display_changes": {
+    "fixed_temperature_scale_K": [
+      -160,
+      160
+    ],
+    "asinh_softening_K": 12,
+    "diagnostic_luminance_gain": "exp(1.8*u*coverage)",
+    "false_color": "fixed deep blue to blue-white, defined in config.json",
+    "fixed_luminance_tone_map": "1.2*Y/(1+1.2*Y)",
+    "broad_wing_fraction": 0.045,
+    "new_physical_emission": false
+  },
+  "convection_decision": {
+    "visible_cells": false,
+    "spatial_magnification": false,
+    "new_stochastic_flicker": false,
+    "failed_flow_used": false,
+    "retained_mean_atmospheric_treatment": true
+  },
+  "production_target": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 960,
+    "duration_s": 32,
+    "audio": false,
+    "physical_observer_seconds": 1721.6,
+    "forced_loop": false
+  },
+  "caption": "instagram-description.text",
+  "scientific_audit": "docs/CONVECTION-AUDIT.md"
+}

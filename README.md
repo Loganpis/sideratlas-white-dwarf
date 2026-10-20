@@ -1,6 +1,6 @@
 # SiderAtlas No.003 — The White Dwarf
 
-[Download the final Reel](https://github.com/Loganpis/sideratlas-white-dwarf/releases/latest/download/sideratlas-no003-the-white-dwarf-32s.mp4) · [Scientific caption](definitive/instagram-description.text) · [Release package](https://github.com/Loganpis/sideratlas-white-dwarf/releases/latest/download/sideratlas-white-dwarf-v2.0.0.zip)
+[Download the final Reel](https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.1.0/sideratlas-no003-the-white-dwarf-32s.mp4) · [Scientific caption](production/instagram-description.text) · [Release package](https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.1.0/sideratlas-white-dwarf-v2.1.0.zip)
 
 <img src="assets/cover.png" alt="False-color pulsation temperature field with a blue-white optical halo" width="360">
 
@@ -15,24 +15,25 @@ Hydrogen-atmosphere spectral emission and limb darkening set the physical
 radiance. A normalized virtual optical model creates the soft blue-white
 halo without adding a luminous shell or new stellar emission.
 
-The interior frequencies are calculated. The excited subset, angular basis,
+The interior adiabatic frequencies are calculated. The excited subset, angular basis,
 surface flux amplitudes and phases are prescribed. This is not a reconstruction
 of a named star or a fully self-consistent nonadiabatic pulsating atmosphere.
 
-- Film: `definitive/output/sideratlas-no003-the-white-dwarf-32s.mp4`
-- Caption: [instagram-description.text](definitive/instagram-description.text)
-- Equations, physical scope and imaging: [docs/MODEL.md](definitive/docs/MODEL.md)
-- Convection, granulation and magnetic decisions: [docs/SURFACE-PHYSICS.md](definitive/docs/SURFACE-PHYSICS.md)
-- Primary references: [docs/SOURCES.md](definitive/docs/SOURCES.md)
-- Scientific data credits and terms: [docs/DATA-CREDITS.md](definitive/docs/DATA-CREDITS.md)
-- Numerical and export reports: `definitive/validation/` and `definitive/output/render-metadata.json`
+- Film: `production/output/sideratlas-no003-the-white-dwarf-32s.mp4`
+- Caption: [instagram-description.text](production/instagram-description.text)
+- Convection failure diagnosis and final fallback: [docs/CONVECTION-AUDIT.md](production/docs/CONVECTION-AUDIT.md)
+- Equations, physical scope and imaging: [docs/MODEL.md](production/docs/MODEL.md)
+- Convection, granulation and magnetic decisions: [docs/SURFACE-PHYSICS.md](production/docs/SURFACE-PHYSICS.md)
+- Primary references: [docs/SOURCES.md](production/docs/SOURCES.md)
+- Scientific data credits and terms: [docs/DATA-CREDITS.md](production/docs/DATA-CREDITS.md)
+- Numerical and export reports: `production/validation/` and `production/output/render-metadata.json`
 
 The production movie is 1080 × 1920, 30 fps, exactly 960 frames / 32 seconds,
 H.264 High / Rec.709 limited / 4:2:0 / fast-start MP4, without audio. It covers
 1,721.6 observer seconds at 53.8 times real time. It evolves continuously;
 no repeated eight-second clips or forced phase reset are used.
 
-## Surface detail: the scientific decision
+## Final surface decision
 
 Published DA radiation-hydrodynamic models imply granules around 0.85 km wide
 at the adopted temperature and gravity. That is only about 0.05 pixel in this
@@ -44,8 +45,11 @@ stochastic surface animation was invented.
 Magnetic spots have no field strength, geometry, contrast or evolution
 calculated for this equilibrium. Magnetic fields can alter both convection
 and gravity-mode propagation. The nonmagnetic foundation is retained, without
-asserting that spots and pulsations are universally incompatible. The earlier
-convection sensitivity experiment is not part of this release.
+asserting that spots and pulsations are universally incompatible. The local convection experiment failed its statistical and refinement checks.
+Its flow is excluded. The final image retains stronger pulsation contrast
+and a normalized halo with 4.5% broad scattering wings. The caption and
+[display notes](production/docs/DISPLAY.md) disclose the fixed false colors, asinh
+contrast and added diagnostic luminance gain.
 
 ## Reproduction
 
@@ -55,12 +59,11 @@ Python 3.12 with `requirements-research.txt` and FFmpeg with libx264 and zscale:
 
 ```sh
 python -m pip install -r requirements-research.txt
-python definitive/investigate_surface.py
-python definitive/validate_calculations.py
-python definitive/render_reel.py
-python definitive/assemble_reel.py
-python definitive/calculate_photometry.py
-python definitive/validate_reel.py
+python production/investigate_surface.py
+python production/validate_calculations.py
+python production/render_reel.py
+python production/calculate_photometry.py
+python production/validate_reel.py
 ```
 
 The saved eigenvalues, eigenfunctions, atmosphere data and cache suffice to
@@ -78,6 +81,11 @@ The assembler verifies checkpoint hashes, copies them to private temporary
 storage and joins them with strict error handling. This avoids file-provider
 open timeouts; frame count and duration are checked before replacing the film.
 
+The final false-color map uses ±160 K with 12 K asinh softening and an
+explicit diagnostic luminance gain exp(1.8u). Neither changes the six physical
+mode amplitudes. The halo redistributes 4.5% of the modeled source light into
+broad wings; it adds no stellar emission.
+
 Only one final film is included in the release package. Earlier previews,
 comparison panels, optional convection movies, SDKs and compiled solvers are
 excluded. Code is MIT; scientific data and fonts retain their recorded credits
@@ -85,16 +93,19 @@ and terms. Instagram will apply its own delivery compression.
 
 ## Source layout
 
-`src/` holds the preserved stellar/radiation calculations and interior-mode
-selection. `luminous/src/` holds the normalized imaging model. `definitive/`
-contains the single final production configuration, renderer, caption,
-documentation and validation. The root `config.json` retains B's physical
-time, camera and sampling settings; `definitive/config.json` selects the final
-film dimensions, optics and fixed display choices. The existing
-`render_previews.py` is retained as the imported interior-renderer factory;
-no preview or comparison movie is distributed here. The convection helper is
-an import dependency of historical validation code and is not used in the film.
+`src/` holds the preserved stellar and radiation calculations. `luminous/src/`
+holds the normalized optical model. `production/` is the single current
+renderer, configuration, caption, documentation and validation directory.
+Root `config.json` preserves B's physical timing, camera and sampling;
+`production/config.json` sets final optics and diagnostic display choices.
+The imported `render_previews.py` supplies the original renderer factory;
+no preview or comparison movie is distributed. The convection helper is
+retained as an import dependency of historical validation, not an active flow.
 
-The v1 tag preserves the historical three-mode Reel. Current main and v2
-describe the six interior-mode film. Historical numerical checks remain under
-root `validation/`; current production checks are under `definitive/validation/`.
+The final film uses no output from the rejected local convection experiment.
+Its bounded failure diagnosis is documented under `production/docs/` and
+`production/validation/`. Unaccepted raw flow snapshots, experimental solvers,
+outreach drafts, SDKs and compiled executables are excluded from this package.
+Historical releases retain earlier production layouts. Retained root numerical
+reports concern the reused stellar calculations; current final-film checks
+are under `production/validation/`.

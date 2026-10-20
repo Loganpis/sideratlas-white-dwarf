@@ -5,42 +5,43 @@ DA / ZZ Ceti — 0.593 M☉ — 11,290 K
 Warm and cool regions brighten out of step
 Six gravity modes interfere across the surface
 Hydrogen shapes the spectrum and darkens the limb
-Gravity slightly redshifts the escaping light
+Gravity slightly redshifts escaping light
 
 CALCULATED
-Six interior g-mode eigenfrequencies from a WDEC structure with GYRE
+Six adiabatic interior g-mode frequencies from a WDEC structure with GYRE
 Dipole and quadrupole surface patterns
 Periods ≈ 247, 287, 316, 349, 397 and 488 s
 R ≈ 9,018 km; T_eff = T₀(1 + δF/F)^(1/4)
-DA spectral radiance at each local temperature
-Limb darkening, weak light bending, redshift and relative photon delays
-z ≈ 0.000097; a separate physical light curve for a fixed observer
+Local DA spectral radiance and limb darkening
+Weak light bending, redshift and relative photon delays
+z ≈ 0.000097; physical light curve for a fixed observer
 
 ASSUMPTIONS
 Representative star, not a reconstruction of a named object
-Excited subset, m values, phases and surface amplitudes are prescribed
-No validated convective driving or nonlinear saturation calculation
+Mode subset, m values, phases and surface amplitudes are prescribed
+No validated convective driving or nonlinear saturation
 Hybrid 1D LTE hydrogen spectra and 3D broadband limb fits
-Published RHD granules are about 0.85 km across, only 0.05 pixel here
-Individual granules remain unresolved; no enlarged cells or invented turbulence
-Nonmagnetic spherical star; no imposed magnetic spots, rotation or deformation
-Blue and warm tones show temperature departures, not visible stellar colors
-Fixed ±160 K scale; asinh contrast with 18 K softening
-Contrast changes the display, never the temperature amplitudes
-Subtle spectral halo from a normalized virtual optical PSF
-Six percent of the light is redistributed into broad wings, not added emission
-Camera motion changes the view, not the fixed-observer light curve
+Mean atmospheric convection effects are retained
+The local granulation experiment failed validation and is excluded
+Realistic cells are unresolved here; no enlarged cells or invented flicker
+Nonmagnetic spherical star; no spots, rotation or imposed deformation
+Blue-to-white colors map temperature departures, not true visible color
+Fixed ±160 K scale; asinh softening 12 K
+Extra display gain exp(1.8u), with u the normalized asinh temperature
+Fixed exposure and tone mapping; physical amplitudes are unchanged
+Normalized virtual optical PSF; 4.5% redistributed into broad wings
+The halo adds no stellar emission
+Camera scan is independent of the fixed-observer light curve
 32 seconds span 1,721.6 physical seconds at 53.8× speed
-Continuous evolution, with no forced seamless repetition
+Continuous evolution without forced repetition
 
 SOURCES
 Bischoff-Kim & Montgomery 2018; Townsend & Teitler 2013
 Koester 2010; Tremblay & Bergeron 2009; Claret et al. 2020
 Wu & Goldreich 1999; Van Grootel et al. 2012
-Tremblay et al. 2013, 2015; Rui, Fuller & Hermes 2025
-Gentile Fusillo et al. 2018; Photutils PSF definitions
-Hollands et al. 2026; Pechenick et al. 1983; Trujillo et al. 2001
-CIE 1931; sRGB/W3C
-Full citations, equations, imaging choices and validation in the repository
+Tremblay et al. 2013, 2015; Kupka et al. 2018
+Pechenick et al. 1983; Trujillo et al. 2001
+CIE 1931; sRGB/W3C; Photutils PSF definitions
+Full references, equations, assumptions and validation in the repository
 
 Code: https://github.com/Loganpis/sideratlas-white-dwarf

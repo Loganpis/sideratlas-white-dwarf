@@ -1,0 +1,15 @@
+{
+  "change": "Final completion-message path: target was undefined after successful assembly",
+  "full_program_AST_identical_except_last_print": true,
+  "only_changed_render_input": [
+    "production/render_reel.py"
+  ],
+  "original_render_fingerprint": "f49d4a8ffb2aaebe89abdd65d6f68b0adbb5280237ae6fa8d039fa46531441d0",
+  "current_package_fingerprint": "224acf6f8a6dc7a2193df742978adc195343b96f6372b29d4c930d126dcd633a",
+  "old_script_sha256": "8d5536258100bcd53c202daccef177fbaf2f8c20eebc1da6c823db82b0a0332a",
+  "new_script_sha256": "577e00e6f074751d64cf0e1efa4dd469675c6dbd069919813d0c4ac4c9abe1ed",
+  "all_checkpoint_video_hashes_unchanged": true,
+  "final_movie_sha256": "fc79c326f7f40a38fd5c18f72c39a55fae86f26deb71f82f9f8802ee87a9e399",
+  "frames_recomputed": false,
+  "original_render_provenance_retained": true
+}

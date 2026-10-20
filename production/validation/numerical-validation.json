@@ -1,0 +1,18 @@
+{
+  "optimized_radiance_interpolant_max_relative_error": 5.551115123125783e-16,
+  "random_samples": 10002,
+  "shutter_2_to_4_nodes_max_relative_flux_error": 1.3473500093397206e-10,
+  "shutter_physical_seconds": 1.7933333333333332,
+  "fixed_observer": {
+    "inclination_deg": 55,
+    "azimuth_deg": 0,
+    "independent_of_camera": true
+  },
+  "surface_decisions_validated": true,
+  "temperature_scale_unclipped_in_global_sampling": true,
+  "original_optical_kernel_checks_retained": true,
+  "caption_characters": 2091,
+  "current_scattering_fraction": 0.045,
+  "physical_mode_amplitudes_unchanged": true,
+  "no_granulation_texture_or_magnetic_map": true
+}

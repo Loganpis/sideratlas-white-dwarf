@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "date": "2026-10-20",
-  "scope": "One final interior-mode white-dwarf Reel",
+  "scope": "One final six-mode Reel with stronger diagnostic contrast and refined luminous imaging; no visible granulation",
   "files": [
     {
       "path": ".gitignore",
@@ -20,13 +20,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5869,
-      "sha256": "8a7dc3b7235c26485c1f805ddf5eeaaef975d37f7b4b0303f27cffef8ed4504f"
+      "bytes": 6679,
+      "sha256": "9603b849f6efeb7b0ca7925b294634060bb5aa8b74545a2376b185ee32767b27"
     },
     {
       "path": "assets/cover.png",
-      "bytes": 392980,
-      "sha256": "251ea82fe161f367c16a7131c535b938950ab4945f8d1436220c03179a93f217"
+      "bytes": 389883,
+      "sha256": "45f4e1ae889b9c095870ffe324c88399ba71e90c81ce2fc24a31e75f901af3d6"
     },
     {
       "path": "calculate_modes.py",
@@ -514,181 +514,6 @@
       "sha256": "a41a5752472bd732e4fdc8ca777c998b3fe0866b439bd128494d3261329d20d2"
     },
     {
-      "path": "definitive/README.md",
-      "bytes": 4367,
-      "sha256": "5556eeef870d87ac715d7d1dfaf1028cbde886f875562f690e5f966c44220206"
-    },
-    {
-      "path": "definitive/assemble_reel.py",
-      "bytes": 2278,
-      "sha256": "fbe0b718ca0291c21daff25bb0d85ffa823a806fdbd50a1e95a6fca475ead8d1"
-    },
-    {
-      "path": "definitive/calculate_photometry.py",
-      "bytes": 2058,
-      "sha256": "0672fa65f987cf61944572377bae0627ee3ce48b449b50b8c58abde953364815"
-    },
-    {
-      "path": "definitive/config.json",
-      "bytes": 698,
-      "sha256": "943d12137f57505013e1d470b69d9be8e8a4bef9c2bee5bd487b5f07abd5cda8"
-    },
-    {
-      "path": "definitive/docs/DATA-CREDITS.md",
-      "bytes": 2987,
-      "sha256": "45e0e9a04e7b1c0636e9a873cc8ddbc450959661f3dcbd187c82d65fe3021061"
-    },
-    {
-      "path": "definitive/docs/MODEL.md",
-      "bytes": 7998,
-      "sha256": "d9c1b2e86c247ab0274de33d412ff276802b7075b38fd5890425bf6c3bebb685"
-    },
-    {
-      "path": "definitive/docs/RELEASE-NOTES.md",
-      "bytes": 1291,
-      "sha256": "b80bdf2bbb2fac47c8b0f46c6c05f986cae47299d66e1c4469a9c4f28080f202"
-    },
-    {
-      "path": "definitive/docs/SOURCES.md",
-      "bytes": 5172,
-      "sha256": "a92336a382f918e848896dc83a62ff47227fb31b32a567bf20a419ebf6b7cc3e"
-    },
-    {
-      "path": "definitive/docs/SURFACE-PHYSICS.md",
-      "bytes": 4331,
-      "sha256": "7c2bfbfc07abdf0c24ee92363842ef459a9c82a7e9af7082ca0ccf21a6ab3c6a"
-    },
-    {
-      "path": "definitive/finalize_release.py",
-      "bytes": 1643,
-      "sha256": "2331901d865e1e5bb4e82b6dab0f764eb0af5d3cc102c17a3b895eef01e03be3"
-    },
-    {
-      "path": "definitive/instagram-description.text",
-      "bytes": 2177,
-      "sha256": "56bdb046273c760aaf78bc70cee1569634e2de0b46ad5f1b267d8046fd3ac857"
-    },
-    {
-      "path": "definitive/investigate_surface.py",
-      "bytes": 5591,
-      "sha256": "0687d981e10a70b1e1b60fde212b666284e433f15620a9dda6454d290d2fde13"
-    },
-    {
-      "path": "definitive/output/camera-schedule.csv",
-      "bytes": 38011,
-      "sha256": "f55299c2e5f152cc93cd67ebe9e4a3c49fcabed5dcd1b2b156bc6821caab7856"
-    },
-    {
-      "path": "definitive/output/fixed-observer-light-curve.csv",
-      "bytes": 35982,
-      "sha256": "cb01a5f4d4a04808c85a3b4911c0397efa71478076dd22bd945ffa618d827133"
-    },
-    {
-      "path": "definitive/output/input-fingerprint.json",
-      "bytes": 4869,
-      "sha256": "660893ecb2533efc2b39a23baf37bc4b8be3e0ebb2f3f503ae862f0119b10358"
-    },
-    {
-      "path": "definitive/output/render-metadata.json",
-      "bytes": 8337,
-      "sha256": "0c9eaa6e08ef6af02ce88c6ec5c9ac95d417d65a143d77b195a9201ab7a5af79"
-    },
-    {
-      "path": "definitive/output/sideratlas-no003-the-white-dwarf-32s.mp4",
-      "bytes": 21809172,
-      "sha256": "774d13211214377c658319b17cec8f3cb71798a19e7e71e08d9d98a914f30626"
-    },
-    {
-      "path": "definitive/package_release.py",
-      "bytes": 6429,
-      "sha256": "2ce10fb799490169c0a37dc5e2619cb19d5c6a7f75d7247cd823924415dbe4df"
-    },
-    {
-      "path": "definitive/render_reel.py",
-      "bytes": 6254,
-      "sha256": "8fcaefef6c43a3c784c19dea1c899cc0f886c8b8a22ce90321fb5e55a63ea99f"
-    },
-    {
-      "path": "definitive/reproduce_package.py",
-      "bytes": 2161,
-      "sha256": "0c8ac7d7d425bc8f92eb64ce6b9daf2dfbeb5c8b38bf498aea7690fec47502e5"
-    },
-    {
-      "path": "definitive/src/final_renderer.py",
-      "bytes": 2161,
-      "sha256": "c1a41ba4a6c2f50415b18eebb3c91b2c559fb54ace9e3674dca51d859c738454"
-    },
-    {
-      "path": "definitive/validate_calculations.py",
-      "bytes": 3692,
-      "sha256": "6124a7de1ca697dd813b745246153511f97ecf30858b7c7131f80e5d4b44d14c"
-    },
-    {
-      "path": "definitive/validate_reel.py",
-      "bytes": 4228,
-      "sha256": "38e2380631c5d426c33da1d397bdeb78d7bc1ee19726c454e628467e79edd686"
-    },
-    {
-      "path": "definitive/validation/final-validation.json",
-      "bytes": 1429,
-      "sha256": "f0434e9185f2bfb2861f02607f42f5c004f715355822db62c3a5a9ca1ea9eb6b"
-    },
-    {
-      "path": "definitive/validation/frame-0000.png",
-      "bytes": 388212,
-      "sha256": "b9319a4855bf6277013010afb138e0816ccceb2c92b6b00c62aeb77c71ebf713"
-    },
-    {
-      "path": "definitive/validation/frame-0240.png",
-      "bytes": 337441,
-      "sha256": "d85dfa98ce0ee65d2a86fa8eceb44c925b7ee20308c97556b9ac97a53db0094e"
-    },
-    {
-      "path": "definitive/validation/frame-0480.png",
-      "bytes": 392980,
-      "sha256": "251ea82fe161f367c16a7131c535b938950ab4945f8d1436220c03179a93f217"
-    },
-    {
-      "path": "definitive/validation/frame-0720.png",
-      "bytes": 387535,
-      "sha256": "460d28bebd8f4ad937ad4ea67d38911f020ecc61a4631eaf75dd0515a407f291"
-    },
-    {
-      "path": "definitive/validation/frame-0959.png",
-      "bytes": 371257,
-      "sha256": "cb77864fa0c2bec93760a66963950466d4c62cbe98ef9d634f9d8bc64def20f8"
-    },
-    {
-      "path": "definitive/validation/interpolation-check.json",
-      "bytes": 853,
-      "sha256": "f3feec7ae1da3ff20e3ed51d839e88cd71edd955f71bf34bfb19ceebc28ad95a"
-    },
-    {
-      "path": "definitive/validation/numerical-validation.json",
-      "bytes": 655,
-      "sha256": "05036a10daa08bed012828634a4d11e3a159015d0d88da95f88c73ca88e71594"
-    },
-    {
-      "path": "definitive/validation/photometry.json",
-      "bytes": 473,
-      "sha256": "6d8f0fe5f103e27e277e7f888cff515f17fd328481ce6e75487f4b2b37525205"
-    },
-    {
-      "path": "definitive/validation/reproduction.json",
-      "bytes": 514,
-      "sha256": "4b31b7bc4436d0fd116abb4a11fd069ee330bbf0aad53c94e742774bed576d04"
-    },
-    {
-      "path": "definitive/validation/runtime-environment.json",
-      "bytes": 392,
-      "sha256": "f578e1941a6c21f205c2bee4c528e4a229b5ce97ea9675ba37f2990939741679"
-    },
-    {
-      "path": "definitive/validation/surface-physics.json",
-      "bytes": 3659,
-      "sha256": "8b75ca7be0d63f160b06f76fb3a879788f1c8be4d3c954ac2e98e8d813ff4708"
-    },
-    {
       "path": "final_export.py",
       "bytes": 2092,
       "sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f"
@@ -720,8 +545,8 @@
     },
     {
       "path": "instagram-description.text",
-      "bytes": 2177,
-      "sha256": "56bdb046273c760aaf78bc70cee1569634e2de0b46ad5f1b267d8046fd3ac857"
+      "bytes": 2110,
+      "sha256": "cd45f0952106d73e04d1a7d177f430ccec043e6b1b89e84db39e355123c71acb"
     },
     {
       "path": "licenses/GYRE-COPYING",
@@ -1072,6 +897,236 @@
       "path": "luminous/validation/optics-validation.json",
       "bytes": 2241,
       "sha256": "12c166e21436a627a14fe98ce113a5380c634d5e7710b0373291c9a84bdee4d4"
+    },
+    {
+      "path": "production/README.md",
+      "bytes": 4968,
+      "sha256": "656350b2fa59f4f8266caf7702fa4ca7ac3068100505930d8be9b92db7701376"
+    },
+    {
+      "path": "production/assemble_reel.py",
+      "bytes": 2321,
+      "sha256": "93df5354cdc7c06952a8fe64dbb453d56260d42e0b1b5dc3da4985691b3d9c11"
+    },
+    {
+      "path": "production/calculate_photometry.py",
+      "bytes": 2058,
+      "sha256": "0672fa65f987cf61944572377bae0627ee3ce48b449b50b8c58abde953364815"
+    },
+    {
+      "path": "production/config.json",
+      "bytes": 1318,
+      "sha256": "7110f26f8c352fe82e7f830615392c60f1cf2fdea842c64dac21f77e2fe0fa25"
+    },
+    {
+      "path": "production/docs/CONVECTION-AUDIT.md",
+      "bytes": 6230,
+      "sha256": "dc0cc3ef4a1b8d4911a8c739233a1ba98a8cc7ef552b3397f5d49f24be5d016d"
+    },
+    {
+      "path": "production/docs/DATA-CREDITS.md",
+      "bytes": 2987,
+      "sha256": "45e0e9a04e7b1c0636e9a873cc8ddbc450959661f3dcbd187c82d65fe3021061"
+    },
+    {
+      "path": "production/docs/DISPLAY.md",
+      "bytes": 2103,
+      "sha256": "7ae8cdb90c45034b1d9a08501ceb46f8865313a5cde298fcebbcc1866cab0fb0"
+    },
+    {
+      "path": "production/docs/MODEL.md",
+      "bytes": 8375,
+      "sha256": "8077f7d60581210d528eca6cee15f3a69a5984e967ecb8da3b5530569629069c"
+    },
+    {
+      "path": "production/docs/SOURCES.md",
+      "bytes": 5442,
+      "sha256": "51aef1836de055653e5dc039dd1c44d76b09f08cdda663229e318acaea776748"
+    },
+    {
+      "path": "production/docs/SURFACE-PHYSICS.md",
+      "bytes": 4832,
+      "sha256": "8d44f728e8ec835f8df572c1ab82ea4f31b4fe85f75334f85ffc0cff88189ea0"
+    },
+    {
+      "path": "production/finalize_release.py",
+      "bytes": 1870,
+      "sha256": "ab3acd0f0e614ac25d16bc6e47f314f82ce2ac465fc9b479775f5a4272315167"
+    },
+    {
+      "path": "production/instagram-description.text",
+      "bytes": 2110,
+      "sha256": "cd45f0952106d73e04d1a7d177f430ccec043e6b1b89e84db39e355123c71acb"
+    },
+    {
+      "path": "production/investigate_surface.py",
+      "bytes": 5591,
+      "sha256": "0687d981e10a70b1e1b60fde212b666284e433f15620a9dda6454d290d2fde13"
+    },
+    {
+      "path": "production/output/camera-schedule.csv",
+      "bytes": 38011,
+      "sha256": "f55299c2e5f152cc93cd67ebe9e4a3c49fcabed5dcd1b2b156bc6821caab7856"
+    },
+    {
+      "path": "production/output/fixed-observer-light-curve.csv",
+      "bytes": 35982,
+      "sha256": "cb01a5f4d4a04808c85a3b4911c0397efa71478076dd22bd945ffa618d827133"
+    },
+    {
+      "path": "production/output/input-fingerprint.json",
+      "bytes": 5236,
+      "sha256": "177b147f64b94df4beb7d4024ace38cdad583a767c6eab115e0058348e829092"
+    },
+    {
+      "path": "production/output/render-metadata.json",
+      "bytes": 10131,
+      "sha256": "b5f84b0193939638bb3527a6be86304f92a3ac935d2f02c565b3f15b559071e3"
+    },
+    {
+      "path": "production/output/sideratlas-no003-the-white-dwarf-32s.mp4",
+      "bytes": 18622059,
+      "sha256": "fc79c326f7f40a38fd5c18f72c39a55fae86f26deb71f82f9f8802ee87a9e399"
+    },
+    {
+      "path": "production/package_release.py",
+      "bytes": 6783,
+      "sha256": "2a56a762166788b5cf9bb870c7335daba1797583282d51edc41d0ab83e40a541"
+    },
+    {
+      "path": "production/render_reel.py",
+      "bytes": 6420,
+      "sha256": "577e00e6f074751d64cf0e1efa4dd469675c6dbd069919813d0c4ac4c9abe1ed"
+    },
+    {
+      "path": "production/reproduce_package.py",
+      "bytes": 2161,
+      "sha256": "514c64f2c7d07d3c62d81526f57054b64d1a1c3f976984cbe5fdc09dab591e91"
+    },
+    {
+      "path": "production/src/final_renderer.py",
+      "bytes": 2900,
+      "sha256": "878a5ad373cc89f6df8c396ca15b53ecf84431727c2cc35e67f8ba536c81e7be"
+    },
+    {
+      "path": "production/src/surface_optics.py",
+      "bytes": 3184,
+      "sha256": "c68a253be523962963d285d9929e68fb97924190b3798633b7012099d27bc61f"
+    },
+    {
+      "path": "production/validate_calculations.py",
+      "bytes": 3904,
+      "sha256": "0f7449692fea127f7a13aab5638870ec7b7b78ff4b0bb1c58dd2c78eddf7f162"
+    },
+    {
+      "path": "production/validate_display.py",
+      "bytes": 2588,
+      "sha256": "7131e5ab33fa6aec6fe75ae4c00d8deef6ded6363c82f82de0dc90a7a3e7b06a"
+    },
+    {
+      "path": "production/validate_reel.py",
+      "bytes": 4228,
+      "sha256": "38e2380631c5d426c33da1d397bdeb78d7bc1ee19726c454e628467e79edd686"
+    },
+    {
+      "path": "production/validation/completion-message-repair.json",
+      "bytes": 824,
+      "sha256": "b7266daf5684d6fe8ee65633cf170df8c18af8cad141f9cd760a503d6180ff59"
+    },
+    {
+      "path": "production/validation/convection-failure-diagnosis.json",
+      "bytes": 1595,
+      "sha256": "059c852c386fbfcf092a91666bac5e16905fc515e3a17a69bf14db984af63c07"
+    },
+    {
+      "path": "production/validation/convection-resolution-audit.json",
+      "bytes": 1036,
+      "sha256": "98698c55c0ff1ac6a34b7fbe5ca0056b1147279af550efe601ed2f1d880d4b7c"
+    },
+    {
+      "path": "production/validation/display-validation.json",
+      "bytes": 692,
+      "sha256": "d6d5f6fb925617658c3fa101f17be4b995cf98db2e0799622752c12ff905fec5"
+    },
+    {
+      "path": "production/validation/final-validation.json",
+      "bytes": 1428,
+      "sha256": "3229b712313cf5950f1cba765cbc6e63fc1eb9c6e05a165859971c85e8823909"
+    },
+    {
+      "path": "production/validation/first-checkpoint-export.json",
+      "bytes": 328,
+      "sha256": "3d21399ee32a5449ab32afea536a9f76c839d315899bcaefd3beeada312667fb"
+    },
+    {
+      "path": "production/validation/frame-0000.png",
+      "bytes": 383028,
+      "sha256": "5cd49ea08c37c16c222ccf61d0d9edde34c6a3f47ee4b8a593976200a244a619"
+    },
+    {
+      "path": "production/validation/frame-0240.png",
+      "bytes": 367127,
+      "sha256": "662532a739f4a5506075c380345eeab5e34fe9b6446f46086f2d0c1f8590094c"
+    },
+    {
+      "path": "production/validation/frame-0480.png",
+      "bytes": 389883,
+      "sha256": "45f4e1ae889b9c095870ffe324c88399ba71e90c81ce2fc24a31e75f901af3d6"
+    },
+    {
+      "path": "production/validation/frame-0720.png",
+      "bytes": 387614,
+      "sha256": "52b35b58f7f336cc7b3ae54f04cf9583d889a9bef29bd01acf83c34a7ad703b5"
+    },
+    {
+      "path": "production/validation/frame-0959.png",
+      "bytes": 345619,
+      "sha256": "0e720bbd01ab981dff81bc94cafc40a13fa4c48558b234459604939d1997126e"
+    },
+    {
+      "path": "production/validation/lte-equations.json",
+      "bytes": 796,
+      "sha256": "7b7fb2de9a716761bad8a61b598a039e91bfd9ae9fdbb91d044131079ad91863"
+    },
+    {
+      "path": "production/validation/numerical-validation.json",
+      "bytes": 656,
+      "sha256": "3ef216c3834fb08734d4df4e47d29b6c23b0d604598328aa0a6a1eefd8328ed7"
+    },
+    {
+      "path": "production/validation/ordinates16-assessment.json",
+      "bytes": 1998,
+      "sha256": "757948479e812e3c466d73487cfed6c869e1b2fbad87d33b25fcb9ee48c326d0"
+    },
+    {
+      "path": "production/validation/photometry.json",
+      "bytes": 473,
+      "sha256": "6d8f0fe5f103e27e277e7f888cff515f17fd328481ce6e75487f4b2b37525205"
+    },
+    {
+      "path": "production/validation/release-scope.json",
+      "bytes": 1180,
+      "sha256": "f19da68e9e86ecba8324a53cb5524d70c9f9e1ce8d7aaa2a211f420bb83941a7"
+    },
+    {
+      "path": "production/validation/reproduction.json",
+      "bytes": 514,
+      "sha256": "6ce99c0c4fd25c81c2aa1ab219e81db0604c1104ec5ca419acda8065caef292d"
+    },
+    {
+      "path": "production/validation/reused-physics.json",
+      "bytes": 2646,
+      "sha256": "264c912b4192ce985b38549ed111ddb77055c707d96e442fea22e4f3724a00c0"
+    },
+    {
+      "path": "production/validation/surface-decision.json",
+      "bytes": 791,
+      "sha256": "3c1c65aafadd131cbbf9c7b8314cbc917e86935f4b7fecfb02b2ff5f08963ac9"
+    },
+    {
+      "path": "production/validation/surface-physics.json",
+      "bytes": 3659,
+      "sha256": "8b75ca7be0d63f160b06f76fb3a879788f1c8be4d3c954ac2e98e8d813ff4708"
     },
     {
       "path": "render_previews.py",

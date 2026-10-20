@@ -1,0 +1,11 @@
+{
+  "scope": "Early first-checkpoint check; whole-movie validation still required",
+  "frames": 120,
+  "width": 1080,
+  "height": 1920,
+  "profile": "High",
+  "color_space": "bt709",
+  "color_range": "tv",
+  "source_frame_zero_PSNR_dB": 48.45541066258519,
+  "source_frame_zero_mean_absolute_sRGB_error": 0.0023501125887597824
+}
