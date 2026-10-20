@@ -1,0 +1,56 @@
+{
+  "frames": 960,
+  "duration_s": 32,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "codec": "h264",
+  "profile": "High",
+  "pixel_format": "yuv420p",
+  "color": "Rec.709 limited",
+  "audio": false,
+  "full_decode_passed": true,
+  "timestamps_monotonic_and_uniform": true,
+  "max_PTS_error_s": 3.3333333604446125e-07,
+  "source_fingerprint_verified": true,
+  "no_repeated_segments": true,
+  "checkpoint_joins_mean_sRGB_difference": [
+    0.0030597048232873397,
+    0.0035832507514322602,
+    0.003229097953481804,
+    0.003402468253247801,
+    0.002895102073751311,
+    0.0034147653917534094,
+    0.0030650190631808277
+  ],
+  "color_managed_decode_checks": [
+    {
+      "frame": 0,
+      "PSNR_dB": 47.549479199286,
+      "mean_absolute_sRGB_error": 0.0027158224400871504
+    },
+    {
+      "frame": 240,
+      "PSNR_dB": 47.17064934485671,
+      "mean_absolute_sRGB_error": 0.0028179548182441674
+    },
+    {
+      "frame": 480,
+      "PSNR_dB": 47.247744738642226,
+      "mean_absolute_sRGB_error": 0.0028147807734204763
+    },
+    {
+      "frame": 720,
+      "PSNR_dB": 47.25643137991632,
+      "mean_absolute_sRGB_error": 0.002804512249858792
+    },
+    {
+      "frame": 959,
+      "PSNR_dB": 46.20785273692741,
+      "mean_absolute_sRGB_error": 0.003072088326071169
+    }
+  ],
+  "caption_characters": 2180,
+  "movie_bytes": 24614188,
+  "sha256": "b290cd5c8632dc8632507cab8ba4f8653e647a4af7575ddf16c9298c0235a017"
+}

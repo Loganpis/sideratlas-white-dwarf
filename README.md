@@ -1,111 +1,74 @@
-# SiderAtlas No.003 — The White Dwarf
+# SiderAtlas NO.003 — THE WHITE DWARF v2.2
 
-[Download the final Reel](https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.1.0/sideratlas-no003-the-white-dwarf-32s.mp4) · [Scientific caption](production/instagram-description.text) · [Release package](https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.1.0/sideratlas-white-dwarf-v2.1.0.zip)
+One continuous 32-second scientific visualization of a representative ZZ Ceti
+white dwarf: six preserved GYRE interior gravity modes, stronger fixed
+false-color pulsation contrast, an explicitly magnified statistical convection
+layer and luminous optical imaging. Only THE WHITE DWARF, @sideratlas and NO.003
+appear in the film. This is not a telescope image or a validated 3D RHD model.
 
-<img src="assets/cover.png" alt="False-color pulsation temperature field with a blue-white optical halo" width="360">
+[Final Reel](https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.2.0/sideratlas-no003-the-white-dwarf-32s.mp4) · [Caption](instagram-description.text) · [Reproducible package](https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.2.0/sideratlas-white-dwarf-v2.2.0.zip)
 
-One continuous 32-second vertical Reel of six interior gravity modes in a
-representative DA / ZZ Ceti white dwarf. The original numerical modes and
-version B's slow camera scan are preserved. The frame contains only
-**THE WHITE DWARF**, **@sideratlas** and **NO.003**, against black.
+<img src="assets/cover.png" alt="Enhanced mode temperature patterns and magnified cellular convection with a blue-white optical halo" width="360">
 
-The surface colors are a fixed, contrast-enhanced map of the calculated
-pulsational temperature departures. They are not the star's visible colors.
-Hydrogen-atmosphere spectral emission and limb darkening set the physical
-radiance. A normalized virtual optical model creates the soft blue-white
-halo without adding a luminous shell or new stellar emission.
+## Scientific boundaries
 
-The interior adiabatic frequencies are calculated. The excited subset, angular basis,
-surface flux amplitudes and phases are prescribed. This is not a reconstruction
-of a named star or a fully self-consistent nonadiabatic pulsating atmosphere.
+**Calculated:** WDEC-based structure, six adiabatic GYRE eigenfrequencies,
+surface flux harmonics under prescribed excitation, DA spectral radiation,
+limb darkening, weak-field photon propagation and a separate fixed-observer
+physical-mode light curve.
 
-- Film: `production/output/sideratlas-no003-the-white-dwarf-32s.mp4`
-- Caption: [instagram-description.text](production/instagram-description.text)
-- Convection failure diagnosis and final fallback: [docs/CONVECTION-AUDIT.md](production/docs/CONVECTION-AUDIT.md)
-- Equations, physical scope and imaging: [docs/MODEL.md](production/docs/MODEL.md)
-- Convection, granulation and magnetic decisions: [docs/SURFACE-PHYSICS.md](production/docs/SURFACE-PHYSICS.md)
-- Primary references: [docs/SOURCES.md](production/docs/SOURCES.md)
-- Scientific data credits and terms: [docs/DATA-CREDITS.md](production/docs/DATA-CREDITS.md)
-- Numerical and export reports: `production/validation/` and `production/output/render-metadata.json`
+**Approximated:** finite-lived weighted Voronoi granulation matched to neighboring
+published DA bolometric contrast and approximate lifetime statistics. Cell
+morphology, drift and birth process are prescribed; no fluid velocity, new RHD
+solution or validated mode–convection coupling is claimed. Failed local-flow
+outputs are not used. Granules are enlarged about 551x to be visible.
 
-The production movie is 1080 × 1920, 30 fps, exactly 960 frames / 32 seconds,
-H.264 High / Rec.709 limited / 4:2:0 / fast-start MP4, without audio. It covers
-1,721.6 observer seconds at 53.8 times real time. It evolves continuously;
-no repeated eight-second clips or forced phase reset are used.
+**Enhanced:** fixed +/-160 K false colors, asinh softening 4 K, pulsation
+log-luminance gain 2.7, cellular contrast exponent 4, prescribed optical PSF and
+sixfold halo display gain. Mode time advances 53.8x faster; convection advances
+20x slower. These deliberately separate display clocks do not represent
+simultaneous physical evolution.
 
-## Final surface decision
+See [physical model](v220/docs/MODEL.md), [convection approximation](v220/docs/CONVECTION.md),
+[display equations](v220/docs/DISPLAY.md), [primary sources](v220/docs/SOURCES.md)
+and [data credits](v220/docs/DATA-CREDITS.md).
 
-Published DA radiation-hydrodynamic models imply granules around 0.85 km wide
-at the adopted temperature and gravity. That is only about 0.05 pixel in this
-whole-star composition, before diffraction and exposure averaging. Individual
-cells cannot be resolved here. Their statistical properties do not specify
-a unique global, time-dependent temperature map. No granular texture or
-stochastic surface animation was invented.
+## Reproduce
 
-Magnetic spots have no field strength, geometry, contrast or evolution
-calculated for this equilibrium. Magnetic fields can alter both convection
-and gravity-mode propagation. The nonmagnetic foundation is retained, without
-asserting that spots and pulsations are universally incompatible. The local convection experiment failed its statistical and refinement checks.
-Its flow is excluded. The final image retains stronger pulsation contrast
-and a normalized halo with 4.5% broad scattering wings. The caption and
-[display notes](production/docs/DISPLAY.md) disclose the fixed false colors, asinh
-contrast and added diagnostic luminance gain.
-
-## Reproduction
-
-The portable package keeps the prior physical inputs and rendering components
-in their original relative layout. From its top-level directory, install
-Python 3.12 with `requirements-research.txt` and FFmpeg with libx264 and zscale:
+Use Python 3.12 with the versions in requirements-lock.txt and an FFmpeg build
+with libx264 and zscale. Saved stellar, atmosphere, font and cellular inputs are
+included; building GYRE is unnecessary to render the film. Original GYRE inputs
+and numerical reports are retained for auditing the interior calculation.
 
 ```sh
-python -m pip install -r requirements-research.txt
-python production/investigate_surface.py
-python production/validate_calculations.py
-python production/render_reel.py
-python production/calculate_photometry.py
-python production/validate_reel.py
+python v220/validate_cells.py
+python v220/render_reel.py --workers 2
+python v220/validate_reel.py
+python v220/package_release.py
+python v220/reproduce_package.py
 ```
 
-The saved eigenvalues, eigenfunctions, atmosphere data and cache suffice to
-render without GYRE or network access. Unmodified GYRE 9.1.1 is an optional
-external dependency for recomputing the interior eigenproblems; the retained
-input files, original provenance and convergence checks accompany the source.
-The published WDEC equilibrium is reused, not a newly evolved stellar model.
+The cellular catalog and calibration are included. `calibrate_cells.py`
+recomputes fitted statistics if needed; it is not necessary before rendering.
+No network access, failed convection experiment or arbitrary texture image is
+needed. The render is deterministic from saved inputs; closed-GOP checkpoints
+allow resumption without repeating completed chunks. Input fingerprints prevent
+mixing results from different configurations. Reproduction checks a freshly
+extracted frame against the source image hash and input fingerprint.
 
-Four-second closed-GOP checkpoints support resumption. They are joined without
-re-encoding, repeating or dropping simulation frames. A checksum fingerprint
-prevents mixing checkpoints after source, configuration or physical inputs
-change. Use a fresh checkpoint directory after such a change. The default
-uses two rendering processes; `--workers 1` reduces peak memory use.
-The assembler verifies checkpoint hashes, copies them to private temporary
-storage and joins them with strict error handling. This avoids file-provider
-open timeouts; frame count and duration are checked before replacing the film.
+## Layout
 
-The final false-color map uses ±160 K with 12 K asinh softening and an
-explicit diagnostic luminance gain exp(1.8u). Neither changes the six physical
-mode amplitudes. The halo redistributes 4.5% of the modeled source light into
-broad wings; it adds no stellar emission.
+- `src/`, `data/`, `calculations/`: preserved structure, atmosphere and mode inputs
+- `luminous/src/`: normalized polychromatic optical model
+- `v220/`: current renderer, cellular model, configuration, caption and documentation
+- `v220/validation/`: statistical, numerical, final export and reproduction checks
+- `v220/output/`: physical observer curve, camera schedule and render provenance
+- Release assets: one final MP4, caption `.text`, source/data ZIP and checksums
 
-Only one final film is included in the release package. Earlier previews,
-comparison panels, optional convection movies, SDKs and compiled solvers are
-excluded. Code is MIT; scientific data and fonts retain their recorded credits
-and terms. Instagram will apply its own delivery compression.
+The short local preview precedes the final export; alternative movies,
+experimental flow solvers, raw rejected snapshots and compiled SDKs are excluded
+from the release. Earlier published work remains accessible through Git tags.
+Original code is MIT; external data and fonts retain their individual terms.
 
-## Source layout
-
-`src/` holds the preserved stellar and radiation calculations. `luminous/src/`
-holds the normalized optical model. `production/` is the single current
-renderer, configuration, caption, documentation and validation directory.
-Root `config.json` preserves B's physical timing, camera and sampling;
-`production/config.json` sets final optics and diagnostic display choices.
-The imported `render_previews.py` supplies the original renderer factory;
-no preview or comparison movie is distributed. The convection helper is
-retained as an import dependency of historical validation, not an active flow.
-
-The final film uses no output from the rejected local convection experiment.
-Its bounded failure diagnosis is documented under `production/docs/` and
-`production/validation/`. Unaccepted raw flow snapshots, experimental solvers,
-outreach drafts, SDKs and compiled executables are excluded from this package.
-Historical releases retain earlier production layouts. Retained root numerical
-reports concern the reused stellar calculations; current final-film checks
-are under `production/validation/`.
+The root `render_previews.py` supplies the preserved renderer factory used by
+the current pipeline. `v220/render_reel.py` is the current film entry point.

@@ -1,9 +1,0 @@
-{
-  "extracted_bundle_frame_zero_bit_identical": true,
-  "all_render_input_hashes_identical": true,
-  "source_fingerprint": "224acf6f8a6dc7a2193df742978adc195343b96f6372b29d4c930d126dcd633a",
-  "frame_zero_png_sha256": "5cd49ea08c37c16c222ccf61d0d9edde34c6a3f47ee4b8a593976200a244a619",
-  "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:54:21) [Clang 16.0.6 ]",
-  "scope": "Same installed dependencies and CPU architecture; no original workspace imports",
-  "numerical_outputs_reused": true
-}

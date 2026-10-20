@@ -1,0 +1,9 @@
+{
+  "version": "2.2.0",
+  "statistical_surrogate_authorized": true,
+  "visible_granulation_included": true,
+  "hydrodynamic_solution": false,
+  "failed_flow_used": false,
+  "physical_mode_results_preserved": true,
+  "decision": "Explicit user authorization permits statistically constrained, magnified cellular approximation with limitations disclosed"
+}

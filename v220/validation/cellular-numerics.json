@@ -1,0 +1,27 @@
+{
+  "neighbor_candidate_checks": [
+    {
+      "t": 1.23,
+      "rms_difference": 0.0,
+      "max_difference": 0.0
+    },
+    {
+      "t": 4.57,
+      "rms_difference": 0.0,
+      "max_difference": 0.0
+    },
+    {
+      "t": 19.21,
+      "rms_difference": 0.0,
+      "max_difference": 0.0
+    }
+  ],
+  "atlas_vs_direct_RMS": 0.0177506706386956,
+  "temporal_step_halving_RMS": 0.0008893201340870693,
+  "intensity_RMS": 0.17250217497348785,
+  "native_patch_smoothed_absolute_RMS_error": 0.009034680569229769,
+  "atlas_mean": 0.9997047083968595,
+  "atlas_relative_RMS": 0.1662688213846818,
+  "numerical_checks_passed": true,
+  "interpretation": "Numerical checks of a statistical surrogate, not RHD validation; atlas smoothing explicitly measured"
+}

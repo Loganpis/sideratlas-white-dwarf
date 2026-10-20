@@ -1,0 +1,41 @@
+{
+  "model": "Finite-lived drifting multiplicatively weighted spherical Voronoi intensity surrogate",
+  "hydrodynamic_solution": false,
+  "failed_RHD_outputs_used": false,
+  "profile_power": 2.3943147779626557,
+  "profile_mean": 0.5537794232368469,
+  "intensity_scale": 0.5515150626244366,
+  "target_bolometric_intensity_RMS": 0.17267912516280087,
+  "target_bright_area_fraction": 0.5488786274809161,
+  "calibration_decay_model_units": 0.4470059130871139,
+  "local_seconds_per_model_unit": 0.24714119946782145,
+  "target_approx_decay_local_s": 0.11047357752955808,
+  "validation_RMS_mean": 0.172415092587471,
+  "validation_RMS_range": [
+    0.17151707410812378,
+    0.17374296486377716
+  ],
+  "validation_bright_area_mean": 0.5490206204927884,
+  "validation_decay_local_s": 0.11080977114460959,
+  "minimum_possible_intensity": 0.694582306713406,
+  "measured_angular_characteristic_scale_rad": 0.052100840336134456,
+  "local_patch_angular_scales_rad": [
+    0.047058823529411764,
+    0.044444444444444446,
+    0.047058823529411764,
+    0.05714285714285715,
+    0.06153846153846154,
+    0.07272727272727274
+  ],
+  "spatial_magnification": 551.293836004438,
+  "reference_granule_size_km": 0.8522720853480057,
+  "statistical_checks_passed": true,
+  "constraints": "Neighbor DA RHD bolometric vertical intensity contrast/size; empirical decay estimate; morphology, birth process and drift prescribed",
+  "limitations": [
+    "No mass/momentum/energy evolution or validated DA convection",
+    "Grey bolometric intensity proxy, not local Teff or optical cell spectra",
+    "Magnification reduces visible cell count; not physical disk photometry",
+    "No nonadiabatic mode/convection coupling or fluid velocities claimed"
+  ],
+  "elapsed_s": 10.023495000001276
+}

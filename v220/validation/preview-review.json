@@ -1,0 +1,16 @@
+{
+  "duration_s": 8,
+  "frames": 120,
+  "resolution": [
+    540,
+    960
+  ],
+  "fps": 15,
+  "full_decode_passed": true,
+  "continuous_nonstatic_evolution": true,
+  "max_adjacent_mean_sRGB_change": 0.003092592592592592,
+  "mean_adjacent_change": 0.0018764038658310082,
+  "sha256": "2118070a5eebedaebfaaf3931e8c4ca9a424ab272536e29dcf793cc47c6e0ab6",
+  "review": "Sampled start/middle/end frames show visible mode regions and cellular detail under the luminous halo; only three labels; final uses same display parameters",
+  "final_export_started_after_preview": true
+}

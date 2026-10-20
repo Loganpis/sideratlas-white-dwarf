@@ -1,0 +1,41 @@
+NO.003 — THE WHITE DWARF
+@sideratlas
+ZZ Ceti · hydrogen atmosphere
+
+Six gravity modes overlap across the surface
+Hot and cool regions evolve as their phases interfere
+Magnified cellular granulation reveals a convection approximation
+An optical halo makes the star appear luminous
+
+CALCULATED
+Representative WDEC structure: 0.593 M☉, radius 9018 km, Teff 11290 K
+Six adiabatic GYRE modes, ℓ = 1–2; observed periods 247–488 s
+Surface flux harmonics; Teff = T₀(1 + δF/F)¼
+DA spectra, limb darkening, weak gravitational bending, delays and redshift z ≈ 0.000097
+Separate light curve uses a fixed observer
+
+ASSUMPTIONS
+Mode selection, phases and amplitudes prescribed; not predicted excitation
+Static 1D LTE spectra plus 3D-based broadband limb fits
+Cellular convection is a statistical approximation, not validated RHD
+DA neighbor models suggest 0.85 km cells and 17.3% bolometric intensity RMS; empirical decay ≈ 0.11 s
+Weighted Voronoi morphology, growth and drift prescribed; no fluid velocity solved
+Grey intensity proxy; not calculated optical cell spectra or local cell temperatures
+Cells enlarged ≈551×; global mean normalized; cellular display contrast exponent 4
+Mode evolution accelerated 53.8×; convection slowed 20× on a separate display clock
+These clocks do not represent simultaneous physical evolution
+No calculated nonlinear mode–convection coupling, rotation, deformation or magnetic spots
+96% false-color blending shows mode ΔTeff within ±160 K; asinh softening 4 K, log-luminance gain 2.7
+Prescribed Airy+jitter+Moffat optics; 12% broad scatter, halo display gain 6, fixed exposure 1.7
+At 1080 width: Airy zero 3.8 px at 550 nm; jitter 0.6 px; Moffat α=85 px, β=2.5
+Glow and contrast are imaging enhancements, not extra emission
+32 seconds; slow moving camera; no forced periodic loop
+
+SOURCES
+Bischoff-Kim & Montgomery 2018; Townsend & Teitler 2013
+Koester 2010; Claret et al. 2020; Tremblay et al. 2013
+Gudiksen & Nordlund 2005: cellular geometry precedent only
+Pechenick et al. 1983; CIE 1931; sRGB
+Full citations, equations, inputs and checks in the repository
+
+The code for this simulation is to be found at https://github.com/Loganpis/sideratlas-white-dwarf

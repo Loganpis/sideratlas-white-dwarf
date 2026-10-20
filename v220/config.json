@@ -1,0 +1,58 @@
+{
+  "preview_width": 1080,
+  "preview_seconds": 32,
+  "fps": 30,
+  "internal_scale": 1,
+  "padding_at_1080": 384,
+  "airy_first_zero_px_at_550nm_1080": 3.8,
+  "jitter_sigma_px_at_1080": 0.6,
+  "scatter_fraction": 0.12,
+  "moffat_alpha_px_at_1080": 85,
+  "moffat_beta": 2.5,
+  "false_color_strength": 0.96,
+  "display_exposure": 1.7,
+  "temperature_scale_K": 160,
+  "asinh_softening_K": 4,
+  "instrument_status": "Prescribed virtual optical system, not a particular telescope or an absolute angular image",
+  "display_status": "Fixed contrast-enhanced temperature diagnostic; no change to calculated mode temperatures",
+  "chunk_frames": 120,
+  "render_workers": 2,
+  "display_temperature_luminance_gain": 2.7,
+  "tone_map": "Fixed sigmoid core log-luminance, rational halo mapping and luminance-preserving gamut compression",
+  "temperature_palette_sRGB": [
+    [
+      0.035,
+      0.12,
+      0.38
+    ],
+    [
+      0.08,
+      0.38,
+      0.86
+    ],
+    [
+      0.48,
+      0.75,
+      1
+    ],
+    [
+      0.78,
+      0.92,
+      1
+    ],
+    [
+      1,
+      0.99,
+      0.97
+    ]
+  ],
+  "granulation_enabled": true,
+  "production_status": "Six GYRE modes plus explicitly magnified statistical DA cellular surrogate",
+  "scientific_scope": "Calculated modes; prescribed cellular morphology calibrated to neighboring published DA bolometric statistics; not a new RHD calculation",
+  "cell_atlas_latitude_nodes": 1025,
+  "cell_atlas_longitude_nodes": 2048,
+  "cell_local_time_step_s": 0.005,
+  "cell_local_seconds_per_display_second": 0.05,
+  "granulation_display_contrast": 4.0,
+  "halo_display_gain": 6.0
+}
